@@ -1,0 +1,115 @@
+<% unless params[:keyword].blank? %>
+<% content_for :title do -%>
+<%= params[:keyword].to_s %>の検索結果 || Coworkscape - 登録自由のコワーキングスペース情報サイト -
+<% end -%>
+<% end %>
+<% unless params[:lat].blank? %>
+<% content_for :title do -%>
+現在地の近くのコワーキングスペース検索結果 || Coworkscape - 登録自由のコワーキングスペース情報サイト -
+<% end -%>
+<% end %>
+<% unless params[:id].blank? %>
+<% content_for :title do -%>
+<%= @pref %>のコワーキングスペース一覧 || Coworkscape - 登録自由のコワーキングスペース情報サイト -
+<% end -%>
+<% end %>
+
+
+<ul class="thumbnails">
+<% @spaces.each do |space| %>
+        <li class="span4">
+          <div class="thumbnailWrapper">
+          	<%= link_to(space_path(space), :class => 'btn') do %>
+            <div class="thumbnail">
+            <%= image_tag space.photo.url(:small) %>
+            <div class="caption">
+            <h2 class="thumbH2"><%= space.name %></h2>
+            <% unless space.plans.blank? %>
+            <div class="thumbPrice"><% plan = space.plans.order('price ASC').first %><%= number_to_currency(plan.price) %>/<%= plan.per %>より</div>  
+            <% end %>  
+            </div>
+            <div class="thumbFooter clearfix">
+            <div class="fblikebuttonarea">
+              <fb:like href="<%= url_for(:only_path => false, :controller=>"/spaces", :action=>"show", :id=> space.id) %>" send="false" layout="button_count" width="120" show_faces="false"></fb:like>
+            </div>
+            <div class="thumbPlace"><i class="icon-map-marker"></i> <%= space.pref %></div>
+            </div>
+          </div>
+		<% end %>
+		<% if current_user %>
+		<% if @user == space.user || @user.admin %>
+		<p><%= link_to(edit_space_path(space)) do %><i class="icon-edit"></i> 編集<% end %> | <%= link_to(space, confirm: '本当に削除しますか?', method: :delete) do %><i class="icon-trash"></i> 削除<% end %></p>
+		<% end %>
+        <% end %>
+         </div>
+        </li>
+<% end %>
+</ul>
+<%= will_paginate(@spaces, :class => 'pagination pagination-centered', :page_links => false ) %>
+
+<h3>Pick Up!</h3>
+
+<ul class="thumbnails">
+<% @pickup.each do |space| %>
+        <li class="span4">
+          <div class="thumbnailWrapper">
+          	<%= link_to(space_path(space), :class => 'btn') do %>
+            <div class="thumbnail">
+            <%= image_tag space.photo.url(:small) %>
+            <div class="caption">
+            <h2 class="thumbH2"><%= space.name %></h2>
+            <% unless space.plans.blank? %>
+            <div class="thumbPrice"><% plan = space.plans.order('price ASC').first %><%= number_to_currency(plan.price) %>/<%= plan.per %>より</div>  
+            <% end %>  
+            </div>
+            <div class="thumbFooter clearfix">
+            <div class="fblikebuttonarea">
+              <fb:like href="<%= url_for(:only_path => false, :controller=>"/spaces", :action=>"show", :id=> space.id) %>" send="false" layout="button_count" width="120" show_faces="false"></fb:like>
+            </div>
+            <div class="thumbPlace"><i class="icon-map-marker"></i> <%= space.pref %></div>
+            </div>
+          </div>
+		<% end %>
+		<% if current_user %>
+		<% if @user == space.user || @user.admin %>
+		<p><%= link_to(edit_space_path(space)) do %><i class="icon-edit"></i> 編集<% end %> | <%= link_to(space, confirm: '本当に削除しますか?', method: :delete) do %><i class="icon-trash"></i> 削除<% end %></p>
+		<% end %>
+        <% end %>
+         </div>
+        </li>
+<% end %>
+</ul>
+
+<h3>全国のコワーキングスペース</h3>
+		  <table class="table table-bordered table-striped todofukenTable" style="margin-bottom:30px;"> 
+  <tbody>
+  <tr>
+   <th>北海道・東北地方</th>
+   <td><% h = Space.find_all_by_pref("北海道") %><%= link_to_unless(h.blank?, "北海道(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "北海道" }) %> | <% h = Space.find_all_by_pref("青森県") %><%= link_to_unless(h.blank?, "青森県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "青森県" }) %> | <% h = Space.find_all_by_pref("岩手県") %><%= link_to_unless(h.blank?, "岩手県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "岩手県" }) %> | <% h = Space.find_all_by_pref("宮城県") %><%= link_to_unless(h.blank?, "宮城県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "宮城県" }) %> | <% h = Space.find_all_by_pref("秋田県") %><%= link_to_unless(h.blank?, "秋田県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "秋田県" }) %> | <% h = Space.find_all_by_pref("山形県") %><%= link_to_unless(h.blank?, "山形県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "山形県" }) %> | <% h = Space.find_all_by_pref("福島県") %><%= link_to_unless(h.blank?, "福島県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "福島県" }) %></td>
+  </tr>
+  <tr>
+   <th>関東地方</th>
+   <td><% h = Space.find_all_by_pref("東京都") %><%= link_to_unless(h.blank?, "東京都(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "東京都" }) %> | <% h = Space.find_all_by_pref("神奈川県") %><%= link_to_unless(h.blank?, "神奈川県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "神奈川県" }) %> | <% h = Space.find_all_by_pref("埼玉県") %><%= link_to_unless(h.blank?, "埼玉県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "埼玉県" }) %> | <% h = Space.find_all_by_pref("千葉県") %><%= link_to_unless(h.blank?, "千葉県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "千葉県" }) %> | <% h = Space.find_all_by_pref("茨城県") %><%= link_to_unless(h.blank?, "茨城県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "茨城県" }) %> | <% h = Space.find_all_by_pref("栃木県") %><%= link_to_unless(h.blank?, "栃木県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "栃木県" }) %> | <% h = Space.find_all_by_pref("群馬県") %><%= link_to_unless(h.blank?, "群馬県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "群馬県" }) %></td>
+  </tr>
+   <tr>
+   <th>中部地方</th>
+   <td><% h = Space.find_all_by_pref("新潟県") %><%= link_to_unless(h.blank?, "新潟県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "新潟県" }) %> | <% h = Space.find_all_by_pref("富山県") %><%= link_to_unless(h.blank?, "富山県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "富山県" }) %> | <% h = Space.find_all_by_pref("石川県") %><%= link_to_unless(h.blank?, "石川県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "石川県" }) %> | <% h = Space.find_all_by_pref("福井県") %><%= link_to_unless(h.blank?, "福井県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "福井県" }) %> | <% h = Space.find_all_by_pref("山梨県") %><%= link_to_unless(h.blank?, "山梨県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "山梨県" }) %> | <% h = Space.find_all_by_pref("長野県") %><%= link_to_unless(h.blank?, "長野県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "長野県" }) %> | <% h = Space.find_all_by_pref("岐阜県") %><%= link_to_unless(h.blank?, "岐阜県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "岐阜県" }) %> | <% h = Space.find_all_by_pref("静岡県") %><%= link_to_unless(h.blank?, "静岡県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "静岡県" }) %> | <% h = Space.find_all_by_pref("愛知県") %><%= link_to_unless(h.blank?, "愛知県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "愛知県" }) %></td>
+  </tr>
+   <tr>
+   <th>近畿地方</th>
+   <td><% h = Space.find_all_by_pref("大阪府") %><%= link_to_unless(h.blank?, "大阪府(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "大阪府" }) %> | <% h = Space.find_all_by_pref("京都府") %><%= link_to_unless(h.blank?, "京都府(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "京都府" }) %> | <% h = Space.find_all_by_pref("兵庫県") %><%= link_to_unless(h.blank?, "兵庫県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "兵庫県" }) %> | <% h = Space.find_all_by_pref("三重県") %><%= link_to_unless(h.blank?, "三重県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "三重県" }) %> | <% h = Space.find_all_by_pref("滋賀県") %><%= link_to_unless(h.blank?, "滋賀県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "滋賀県" }) %> | <% h = Space.find_all_by_pref("奈良県") %><%= link_to_unless(h.blank?, "奈良県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "奈良県" }) %> | <% h = Space.find_all_by_pref("和歌山県") %><%= link_to_unless(h.blank?, "和歌山県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "和歌山県" }) %></td>
+  </tr>
+   <tr>
+   <th>中国地方</th>
+   <td><% h = Space.find_all_by_pref("鳥取県") %><%= link_to_unless(h.blank?, "鳥取県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "鳥取県" }) %> | <% h = Space.find_all_by_pref("島根県") %><%= link_to_unless(h.blank?, "島根県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "島根県" }) %> | <% h = Space.find_all_by_pref("岡山県") %><%= link_to_unless(h.blank?, "岡山県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "岡山県" }) %> | <% h = Space.find_all_by_pref("広島県") %><%= link_to_unless(h.blank?, "広島県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "広島県" }) %> | <% h = Space.find_all_by_pref("山口県") %><%= link_to_unless(h.blank?, "山口県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "山口県" }) %></td>
+  </tr>
+     <tr>
+   <th>四国地方</th>
+   <td><% h = Space.find_all_by_pref("徳島県") %><%= link_to_unless(h.blank?, "徳島県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "徳島県" }) %> | <% h = Space.find_all_by_pref("香川県") %><%= link_to_unless(h.blank?, "香川県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "香川県" }) %> | <% h = Space.find_all_by_pref("愛媛県") %><%= link_to_unless(h.blank?, "愛媛県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "愛媛県" }) %> | <% h = Space.find_all_by_pref("高知県") %><%= link_to_unless(h.blank?, "高知県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "高知県" }) %></td>
+  </tr>
+     <tr>
+   <th>九州地方・沖縄</th>
+   <td><% h = Space.find_all_by_pref("福岡県") %><%= link_to_unless(h.blank?, "福岡県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "福岡県" }) %> | <% h = Space.find_all_by_pref("佐賀県") %><%= link_to_unless(h.blank?, "佐賀県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "佐賀県" }) %> | <% h = Space.find_all_by_pref("長崎県") %><%= link_to_unless(h.blank?, "長崎県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "長崎県" }) %> | <% h = Space.find_all_by_pref("熊本県") %><%= link_to_unless(h.blank?, "熊本県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "熊本県" }) %> | <% h = Space.find_all_by_pref("大分県") %><%= link_to_unless(h.blank?, "大分県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "大分県" }) %> | <% h = Space.find_all_by_pref("宮崎県") %><%= link_to_unless(h.blank?, "宮崎県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "宮崎県" }) %> | <% h = Space.find_all_by_pref("鹿児島県") %><%= link_to_unless(h.blank?, "鹿児島県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "鹿児島県" }) %> | <% h = Space.find_all_by_pref("沖縄県") %><%= link_to_unless(h.blank?, "沖縄県(" + h.size.to_s + ")", { :controller =>"/spaces", :action => "category", :id => "沖縄県" }) %></td>
+  </tr>
+  </tbody>
+  </table>

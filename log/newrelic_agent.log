@@ -1,0 +1,1421 @@
+# Logfile created on 2012-05-11 15:48:40 +0900 by logger.rb/25413
+[05/11/12 15:48:40 +0900 Takasaki-Kenji-no-iMac.local (23125)] INFO : Dispatcher: thin
+[05/11/12 15:48:40 +0900 Takasaki-Kenji-no-iMac.local (23125)] INFO : Application: development
+[05/11/12 15:48:40 +0900 Takasaki-Kenji-no-iMac.local (23125)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 15:48:40 +0900 Takasaki-Kenji-no-iMac.local (23125)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 23125
+[05/11/12 15:48:40 +0900 Takasaki-Kenji-no-iMac.local (23125)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 15:49:47 +0900 Takasaki-Kenji-no-iMac.local (23217)] INFO : Dispatcher: thin
+[05/11/12 15:49:47 +0900 Takasaki-Kenji-no-iMac.local (23217)] INFO : Application: development
+[05/11/12 15:49:47 +0900 Takasaki-Kenji-no-iMac.local (23217)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 15:49:47 +0900 Takasaki-Kenji-no-iMac.local (23217)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 23217
+[05/11/12 15:49:47 +0900 Takasaki-Kenji-no-iMac.local (23217)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 15:50:05 +0900 Takasaki-Kenji-no-iMac.local (23232)] INFO : Dispatcher: thin
+[05/11/12 15:50:05 +0900 Takasaki-Kenji-no-iMac.local (23232)] INFO : Application: development
+[05/11/12 15:50:05 +0900 Takasaki-Kenji-no-iMac.local (23232)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 15:50:05 +0900 Takasaki-Kenji-no-iMac.local (23232)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 23232
+[05/11/12 15:50:05 +0900 Takasaki-Kenji-no-iMac.local (23232)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 17:01:41 +0900 Takasaki-Kenji-no-iMac.local (1899)] INFO : Dispatcher: thin
+[05/11/12 17:01:41 +0900 Takasaki-Kenji-no-iMac.local (1899)] INFO : Application: development
+[05/11/12 17:01:41 +0900 Takasaki-Kenji-no-iMac.local (1899)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 17:01:41 +0900 Takasaki-Kenji-no-iMac.local (1899)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1899
+[05/11/12 17:01:41 +0900 Takasaki-Kenji-no-iMac.local (1899)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 17:20:42 +0900 Takasaki-Kenji-no-iMac.local (3219)] INFO : Dispatcher: thin
+[05/11/12 17:20:42 +0900 Takasaki-Kenji-no-iMac.local (3219)] INFO : Application: development
+[05/11/12 17:20:42 +0900 Takasaki-Kenji-no-iMac.local (3219)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 17:20:42 +0900 Takasaki-Kenji-no-iMac.local (3219)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3219
+[05/11/12 17:20:42 +0900 Takasaki-Kenji-no-iMac.local (3219)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 17:20:51 +0900 Takasaki-Kenji-no-iMac.local (3239)] INFO : Dispatcher: thin
+[05/11/12 17:20:51 +0900 Takasaki-Kenji-no-iMac.local (3239)] INFO : Application: development
+[05/11/12 17:20:51 +0900 Takasaki-Kenji-no-iMac.local (3239)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 17:20:51 +0900 Takasaki-Kenji-no-iMac.local (3239)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3239
+[05/11/12 17:20:51 +0900 Takasaki-Kenji-no-iMac.local (3239)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 19:45:53 +0900 Takasaki-Kenji-no-iMac.local (9565)] INFO : Dispatcher: thin
+[05/11/12 19:45:53 +0900 Takasaki-Kenji-no-iMac.local (9565)] INFO : Application: development
+[05/11/12 19:45:53 +0900 Takasaki-Kenji-no-iMac.local (9565)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 19:45:53 +0900 Takasaki-Kenji-no-iMac.local (9565)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 9565
+[05/11/12 19:45:53 +0900 Takasaki-Kenji-no-iMac.local (9565)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 19:47:03 +0900 Takasaki-Kenji-no-iMac.local (9637)] INFO : Dispatcher: thin
+[05/11/12 19:47:03 +0900 Takasaki-Kenji-no-iMac.local (9637)] INFO : Application: development
+[05/11/12 19:47:03 +0900 Takasaki-Kenji-no-iMac.local (9637)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 19:47:03 +0900 Takasaki-Kenji-no-iMac.local (9637)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 9637
+[05/11/12 19:47:03 +0900 Takasaki-Kenji-no-iMac.local (9637)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 19:47:17 +0900 Takasaki-Kenji-no-iMac.local (9669)] INFO : Dispatcher: thin
+[05/11/12 19:47:17 +0900 Takasaki-Kenji-no-iMac.local (9669)] INFO : Application: development
+[05/11/12 19:47:17 +0900 Takasaki-Kenji-no-iMac.local (9669)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 19:47:17 +0900 Takasaki-Kenji-no-iMac.local (9669)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 9669
+[05/11/12 19:47:17 +0900 Takasaki-Kenji-no-iMac.local (9669)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:02:08 +0900 Takasaki-Kenji-no-iMac.local (10313)] INFO : Dispatcher: thin
+[05/11/12 20:02:08 +0900 Takasaki-Kenji-no-iMac.local (10313)] INFO : Application: development
+[05/11/12 20:02:08 +0900 Takasaki-Kenji-no-iMac.local (10313)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 20:02:08 +0900 Takasaki-Kenji-no-iMac.local (10313)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 10313
+[05/11/12 20:02:08 +0900 Takasaki-Kenji-no-iMac.local (10313)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:03:17 +0900 Takasaki-Kenji-no-iMac.local (10374)] INFO : Dispatcher: thin
+[05/11/12 20:03:17 +0900 Takasaki-Kenji-no-iMac.local (10374)] INFO : Application: development
+[05/11/12 20:03:17 +0900 Takasaki-Kenji-no-iMac.local (10374)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 20:03:17 +0900 Takasaki-Kenji-no-iMac.local (10374)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 10374
+[05/11/12 20:03:17 +0900 Takasaki-Kenji-no-iMac.local (10374)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:03:25 +0900 Takasaki-Kenji-no-iMac.local (10378)] INFO : Dispatcher: thin
+[05/11/12 20:03:25 +0900 Takasaki-Kenji-no-iMac.local (10378)] INFO : Application: development
+[05/11/12 20:03:25 +0900 Takasaki-Kenji-no-iMac.local (10378)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 20:03:25 +0900 Takasaki-Kenji-no-iMac.local (10378)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 10378
+[05/11/12 20:03:25 +0900 Takasaki-Kenji-no-iMac.local (10378)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:25:43 +0900 Takasaki-Kenji-no-iMac.local (11525)] INFO : Dispatcher: thin
+[05/11/12 20:25:43 +0900 Takasaki-Kenji-no-iMac.local (11525)] INFO : Application: production
+[05/11/12 20:25:43 +0900 Takasaki-Kenji-no-iMac.local (11525)] ERROR : Invalid license key: 
+[05/11/12 20:25:43 +0900 Takasaki-Kenji-no-iMac.local (11525)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 11525
+[05/11/12 20:25:43 +0900 Takasaki-Kenji-no-iMac.local (11525)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:27:38 +0900 Takasaki-Kenji-no-iMac.local (11615)] INFO : Dispatcher: thin
+[05/11/12 20:27:38 +0900 Takasaki-Kenji-no-iMac.local (11615)] INFO : Application: production
+[05/11/12 20:27:38 +0900 Takasaki-Kenji-no-iMac.local (11615)] ERROR : Invalid license key: 
+[05/11/12 20:27:38 +0900 Takasaki-Kenji-no-iMac.local (11615)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 11615
+[05/11/12 20:27:38 +0900 Takasaki-Kenji-no-iMac.local (11615)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:27:54 +0900 Takasaki-Kenji-no-iMac.local (11615)] INFO : Dispatcher: thin
+[05/11/12 20:27:54 +0900 Takasaki-Kenji-no-iMac.local (11615)] INFO : Application: production
+[05/11/12 20:27:54 +0900 Takasaki-Kenji-no-iMac.local (11615)] ERROR : Invalid license key: 
+[05/11/12 20:27:54 +0900 Takasaki-Kenji-no-iMac.local (11615)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 11615
+[05/11/12 20:27:54 +0900 Takasaki-Kenji-no-iMac.local (11615)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:34:52 +0900 Takasaki-Kenji-no-iMac.local (12046)] INFO : Dispatcher: thin
+[05/11/12 20:34:52 +0900 Takasaki-Kenji-no-iMac.local (12046)] INFO : Application: development
+[05/11/12 20:34:52 +0900 Takasaki-Kenji-no-iMac.local (12046)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 20:34:52 +0900 Takasaki-Kenji-no-iMac.local (12046)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12046
+[05/11/12 20:34:52 +0900 Takasaki-Kenji-no-iMac.local (12046)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:35:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] INFO : Dispatcher: thin
+[05/11/12 20:35:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] INFO : Application: development
+[05/11/12 20:35:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 20:35:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12057
+[05/11/12 20:35:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:37:14 +0900 Takasaki-Kenji-no-iMac.local (12159)] INFO : Dispatcher: thin
+[05/11/12 20:37:14 +0900 Takasaki-Kenji-no-iMac.local (12159)] INFO : Application: development
+[05/11/12 20:37:14 +0900 Takasaki-Kenji-no-iMac.local (12159)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 20:37:14 +0900 Takasaki-Kenji-no-iMac.local (12159)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12159
+[05/11/12 20:37:14 +0900 Takasaki-Kenji-no-iMac.local (12159)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:38:40 +0900 Takasaki-Kenji-no-iMac.local (12235)] INFO : Dispatcher: thin
+[05/11/12 20:38:40 +0900 Takasaki-Kenji-no-iMac.local (12235)] INFO : Application: production
+[05/11/12 20:38:40 +0900 Takasaki-Kenji-no-iMac.local (12235)] ERROR : Invalid license key: 
+[05/11/12 20:38:40 +0900 Takasaki-Kenji-no-iMac.local (12235)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12235
+[05/11/12 20:38:40 +0900 Takasaki-Kenji-no-iMac.local (12235)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:43:40 +0900 Takasaki-Kenji-no-iMac.local (12462)] INFO : Dispatcher: thin
+[05/11/12 20:43:40 +0900 Takasaki-Kenji-no-iMac.local (12462)] INFO : Application: production
+[05/11/12 20:43:40 +0900 Takasaki-Kenji-no-iMac.local (12462)] ERROR : Invalid license key: 
+[05/11/12 20:43:40 +0900 Takasaki-Kenji-no-iMac.local (12462)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12462
+[05/11/12 20:43:40 +0900 Takasaki-Kenji-no-iMac.local (12462)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:44:01 +0900 Takasaki-Kenji-no-iMac.local (12462)] INFO : Dispatcher: thin
+[05/11/12 20:44:01 +0900 Takasaki-Kenji-no-iMac.local (12462)] INFO : Application: production
+[05/11/12 20:44:01 +0900 Takasaki-Kenji-no-iMac.local (12462)] ERROR : Invalid license key: 
+[05/11/12 20:44:01 +0900 Takasaki-Kenji-no-iMac.local (12462)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12462
+[05/11/12 20:44:01 +0900 Takasaki-Kenji-no-iMac.local (12462)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:52:34 +0900 Takasaki-Kenji-no-iMac.local (12901)] INFO : Dispatcher: thin
+[05/11/12 20:52:34 +0900 Takasaki-Kenji-no-iMac.local (12901)] INFO : Application: development
+[05/11/12 20:52:34 +0900 Takasaki-Kenji-no-iMac.local (12901)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 20:52:34 +0900 Takasaki-Kenji-no-iMac.local (12901)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12901
+[05/11/12 20:52:34 +0900 Takasaki-Kenji-no-iMac.local (12901)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:54:25 +0900 Takasaki-Kenji-no-iMac.local (12985)] INFO : Dispatcher: thin
+[05/11/12 20:54:25 +0900 Takasaki-Kenji-no-iMac.local (12985)] INFO : Application: production
+[05/11/12 20:54:25 +0900 Takasaki-Kenji-no-iMac.local (12985)] ERROR : Invalid license key: 
+[05/11/12 20:54:25 +0900 Takasaki-Kenji-no-iMac.local (12985)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12985
+[05/11/12 20:54:25 +0900 Takasaki-Kenji-no-iMac.local (12985)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:54:53 +0900 Takasaki-Kenji-no-iMac.local (13013)] INFO : Dispatcher: thin
+[05/11/12 20:54:53 +0900 Takasaki-Kenji-no-iMac.local (13013)] INFO : Application: production
+[05/11/12 20:54:53 +0900 Takasaki-Kenji-no-iMac.local (13013)] ERROR : Invalid license key: 
+[05/11/12 20:54:53 +0900 Takasaki-Kenji-no-iMac.local (13013)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 13013
+[05/11/12 20:54:53 +0900 Takasaki-Kenji-no-iMac.local (13013)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 20:55:10 +0900 Takasaki-Kenji-no-iMac.local (13013)] INFO : Dispatcher: thin
+[05/11/12 20:55:10 +0900 Takasaki-Kenji-no-iMac.local (13013)] INFO : Application: production
+[05/11/12 20:55:10 +0900 Takasaki-Kenji-no-iMac.local (13013)] ERROR : Invalid license key: 
+[05/11/12 20:55:10 +0900 Takasaki-Kenji-no-iMac.local (13013)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 13013
+[05/11/12 20:55:10 +0900 Takasaki-Kenji-no-iMac.local (13013)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 21:41:42 +0900 Takasaki-Kenji-no-iMac.local (16678)] INFO : Dispatcher: thin
+[05/11/12 21:41:42 +0900 Takasaki-Kenji-no-iMac.local (16678)] INFO : Application: development
+[05/11/12 21:41:42 +0900 Takasaki-Kenji-no-iMac.local (16678)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 21:41:42 +0900 Takasaki-Kenji-no-iMac.local (16678)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 16678
+[05/11/12 21:41:42 +0900 Takasaki-Kenji-no-iMac.local (16678)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 21:42:53 +0900 Takasaki-Kenji-no-iMac.local (16751)] INFO : Dispatcher: thin
+[05/11/12 21:42:53 +0900 Takasaki-Kenji-no-iMac.local (16751)] INFO : Application: development
+[05/11/12 21:42:53 +0900 Takasaki-Kenji-no-iMac.local (16751)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 21:42:53 +0900 Takasaki-Kenji-no-iMac.local (16751)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 16751
+[05/11/12 21:42:53 +0900 Takasaki-Kenji-no-iMac.local (16751)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 21:58:36 +0900 Takasaki-Kenji-no-iMac.local (17783)] INFO : Dispatcher: thin
+[05/11/12 21:58:36 +0900 Takasaki-Kenji-no-iMac.local (17783)] INFO : Application: production
+[05/11/12 21:58:36 +0900 Takasaki-Kenji-no-iMac.local (17783)] ERROR : Invalid license key: 
+[05/11/12 21:58:36 +0900 Takasaki-Kenji-no-iMac.local (17783)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 17783
+[05/11/12 21:58:36 +0900 Takasaki-Kenji-no-iMac.local (17783)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 21:58:51 +0900 Takasaki-Kenji-no-iMac.local (17783)] INFO : Dispatcher: thin
+[05/11/12 21:58:51 +0900 Takasaki-Kenji-no-iMac.local (17783)] INFO : Application: production
+[05/11/12 21:58:51 +0900 Takasaki-Kenji-no-iMac.local (17783)] ERROR : Invalid license key: 
+[05/11/12 21:58:51 +0900 Takasaki-Kenji-no-iMac.local (17783)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 17783
+[05/11/12 21:58:51 +0900 Takasaki-Kenji-no-iMac.local (17783)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 22:03:17 +0900 Takasaki-Kenji-no-iMac.local (18262)] INFO : Dispatcher: thin
+[05/11/12 22:03:17 +0900 Takasaki-Kenji-no-iMac.local (18262)] INFO : Application: development
+[05/11/12 22:03:17 +0900 Takasaki-Kenji-no-iMac.local (18262)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 22:03:17 +0900 Takasaki-Kenji-no-iMac.local (18262)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 18262
+[05/11/12 22:03:17 +0900 Takasaki-Kenji-no-iMac.local (18262)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 22:07:25 +0900 Takasaki-Kenji-no-iMac.local (18437)] INFO : Dispatcher: thin
+[05/11/12 22:07:25 +0900 Takasaki-Kenji-no-iMac.local (18437)] INFO : Application: development
+[05/11/12 22:07:25 +0900 Takasaki-Kenji-no-iMac.local (18437)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/11/12 22:07:25 +0900 Takasaki-Kenji-no-iMac.local (18437)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 18437
+[05/11/12 22:07:25 +0900 Takasaki-Kenji-no-iMac.local (18437)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 22:40:22 +0900 Takasaki-Kenji-no-iMac.local (20014)] INFO : Dispatcher: thin
+[05/11/12 22:40:22 +0900 Takasaki-Kenji-no-iMac.local (20014)] INFO : Application: production
+[05/11/12 22:40:22 +0900 Takasaki-Kenji-no-iMac.local (20014)] ERROR : Invalid license key: 
+[05/11/12 22:40:22 +0900 Takasaki-Kenji-no-iMac.local (20014)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 20014
+[05/11/12 22:40:22 +0900 Takasaki-Kenji-no-iMac.local (20014)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/11/12 22:40:39 +0900 Takasaki-Kenji-no-iMac.local (20014)] INFO : Dispatcher: thin
+[05/11/12 22:40:39 +0900 Takasaki-Kenji-no-iMac.local (20014)] INFO : Application: production
+[05/11/12 22:40:39 +0900 Takasaki-Kenji-no-iMac.local (20014)] ERROR : Invalid license key: 
+[05/11/12 22:40:39 +0900 Takasaki-Kenji-no-iMac.local (20014)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 20014
+[05/11/12 22:40:39 +0900 Takasaki-Kenji-no-iMac.local (20014)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/12/12 11:04:08 +0900 Takasaki-Kenji-no-iMac.local (6297)] INFO : Dispatcher: thin
+[05/12/12 11:04:08 +0900 Takasaki-Kenji-no-iMac.local (6297)] INFO : Application: production
+[05/12/12 11:04:08 +0900 Takasaki-Kenji-no-iMac.local (6297)] ERROR : Invalid license key: 
+[05/12/12 11:04:08 +0900 Takasaki-Kenji-no-iMac.local (6297)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6297
+[05/12/12 11:04:08 +0900 Takasaki-Kenji-no-iMac.local (6297)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/12/12 11:10:03 +0900 Takasaki-Kenji-no-iMac.local (6511)] INFO : Dispatcher: thin
+[05/12/12 11:10:03 +0900 Takasaki-Kenji-no-iMac.local (6511)] INFO : Application: production
+[05/12/12 11:10:03 +0900 Takasaki-Kenji-no-iMac.local (6511)] ERROR : Invalid license key: 
+[05/12/12 11:10:03 +0900 Takasaki-Kenji-no-iMac.local (6511)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6511
+[05/12/12 11:10:03 +0900 Takasaki-Kenji-no-iMac.local (6511)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/12/12 11:10:19 +0900 Takasaki-Kenji-no-iMac.local (6511)] INFO : Dispatcher: thin
+[05/12/12 11:10:19 +0900 Takasaki-Kenji-no-iMac.local (6511)] INFO : Application: production
+[05/12/12 11:10:19 +0900 Takasaki-Kenji-no-iMac.local (6511)] ERROR : Invalid license key: 
+[05/12/12 11:10:19 +0900 Takasaki-Kenji-no-iMac.local (6511)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6511
+[05/12/12 11:10:19 +0900 Takasaki-Kenji-no-iMac.local (6511)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/12/12 11:30:09 +0900 Takasaki-Kenji-no-iMac.local (7681)] INFO : Dispatcher: thin
+[05/12/12 11:30:09 +0900 Takasaki-Kenji-no-iMac.local (7681)] INFO : Application: development
+[05/12/12 11:30:09 +0900 Takasaki-Kenji-no-iMac.local (7681)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/12/12 11:30:09 +0900 Takasaki-Kenji-no-iMac.local (7681)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7681
+[05/12/12 11:30:09 +0900 Takasaki-Kenji-no-iMac.local (7681)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/12/12 11:30:18 +0900 Takasaki-Kenji-no-iMac.local (7688)] INFO : Dispatcher: thin
+[05/12/12 11:30:18 +0900 Takasaki-Kenji-no-iMac.local (7688)] INFO : Application: development
+[05/12/12 11:30:18 +0900 Takasaki-Kenji-no-iMac.local (7688)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/12/12 11:30:18 +0900 Takasaki-Kenji-no-iMac.local (7688)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7688
+[05/12/12 11:30:18 +0900 Takasaki-Kenji-no-iMac.local (7688)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/12/12 12:08:06 +0900 Takasaki-Kenji-no-iMac.local (9327)] INFO : Dispatcher: thin
+[05/12/12 12:08:06 +0900 Takasaki-Kenji-no-iMac.local (9327)] INFO : Application: development
+[05/12/12 12:08:06 +0900 Takasaki-Kenji-no-iMac.local (9327)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/12/12 12:08:06 +0900 Takasaki-Kenji-no-iMac.local (9327)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 9327
+[05/12/12 12:08:06 +0900 Takasaki-Kenji-no-iMac.local (9327)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/13/12 09:37:04 +0900 Takasaki-Kenji-no-iMac.local (853)] INFO : Dispatcher: thin
+[05/13/12 09:37:04 +0900 Takasaki-Kenji-no-iMac.local (853)] INFO : Application: development
+[05/13/12 09:37:04 +0900 Takasaki-Kenji-no-iMac.local (853)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/13/12 09:37:04 +0900 Takasaki-Kenji-no-iMac.local (853)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 853
+[05/13/12 09:37:04 +0900 Takasaki-Kenji-no-iMac.local (853)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/13/12 09:37:28 +0900 Takasaki-Kenji-no-iMac.local (921)] INFO : Dispatcher: thin
+[05/13/12 09:37:28 +0900 Takasaki-Kenji-no-iMac.local (921)] INFO : Application: development
+[05/13/12 09:37:28 +0900 Takasaki-Kenji-no-iMac.local (921)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/13/12 09:37:28 +0900 Takasaki-Kenji-no-iMac.local (921)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 921
+[05/13/12 09:37:28 +0900 Takasaki-Kenji-no-iMac.local (921)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/13/12 10:08:21 +0900 Takasaki-Kenji-no-iMac.local (2099)] INFO : Dispatcher: thin
+[05/13/12 10:08:21 +0900 Takasaki-Kenji-no-iMac.local (2099)] INFO : Application: production
+[05/13/12 10:08:21 +0900 Takasaki-Kenji-no-iMac.local (2099)] ERROR : Invalid license key: 
+[05/13/12 10:08:21 +0900 Takasaki-Kenji-no-iMac.local (2099)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2099
+[05/13/12 10:08:21 +0900 Takasaki-Kenji-no-iMac.local (2099)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/13/12 10:08:44 +0900 Takasaki-Kenji-no-iMac.local (2099)] INFO : Dispatcher: thin
+[05/13/12 10:08:44 +0900 Takasaki-Kenji-no-iMac.local (2099)] INFO : Application: production
+[05/13/12 10:08:44 +0900 Takasaki-Kenji-no-iMac.local (2099)] ERROR : Invalid license key: 
+[05/13/12 10:08:44 +0900 Takasaki-Kenji-no-iMac.local (2099)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2099
+[05/13/12 10:08:44 +0900 Takasaki-Kenji-no-iMac.local (2099)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/13/12 18:25:10 +0900 Takasaki-Kenji-no-iMac.local (572)] INFO : Dispatcher: thin
+[05/13/12 18:25:10 +0900 Takasaki-Kenji-no-iMac.local (572)] INFO : Application: development
+[05/13/12 18:25:10 +0900 Takasaki-Kenji-no-iMac.local (572)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/13/12 18:25:10 +0900 Takasaki-Kenji-no-iMac.local (572)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 572
+[05/13/12 18:25:10 +0900 Takasaki-Kenji-no-iMac.local (572)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/13/12 18:25:12 +0900 Takasaki-Kenji-no-iMac.local (635)] INFO : Dispatcher: thin
+[05/13/12 18:25:12 +0900 Takasaki-Kenji-no-iMac.local (635)] INFO : Application: development
+[05/13/12 18:25:12 +0900 Takasaki-Kenji-no-iMac.local (635)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/13/12 18:25:12 +0900 Takasaki-Kenji-no-iMac.local (635)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 635
+[05/13/12 18:25:12 +0900 Takasaki-Kenji-no-iMac.local (635)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/13/12 18:33:03 +0900 Takasaki-Kenji-no-iMac.local (988)] INFO : Dispatcher: thin
+[05/13/12 18:33:03 +0900 Takasaki-Kenji-no-iMac.local (988)] INFO : Application: production
+[05/13/12 18:33:03 +0900 Takasaki-Kenji-no-iMac.local (988)] ERROR : Invalid license key: 
+[05/13/12 18:33:03 +0900 Takasaki-Kenji-no-iMac.local (988)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 988
+[05/13/12 18:33:03 +0900 Takasaki-Kenji-no-iMac.local (988)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/13/12 18:33:20 +0900 Takasaki-Kenji-no-iMac.local (988)] INFO : Dispatcher: thin
+[05/13/12 18:33:20 +0900 Takasaki-Kenji-no-iMac.local (988)] INFO : Application: production
+[05/13/12 18:33:20 +0900 Takasaki-Kenji-no-iMac.local (988)] ERROR : Invalid license key: 
+[05/13/12 18:33:20 +0900 Takasaki-Kenji-no-iMac.local (988)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 988
+[05/13/12 18:33:20 +0900 Takasaki-Kenji-no-iMac.local (988)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 11:32:03 +0900 Takasaki-Kenji-no-iMac.local (1301)] INFO : Dispatcher: thin
+[05/14/12 11:32:03 +0900 Takasaki-Kenji-no-iMac.local (1301)] INFO : Application: development
+[05/14/12 11:32:03 +0900 Takasaki-Kenji-no-iMac.local (1301)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 11:32:03 +0900 Takasaki-Kenji-no-iMac.local (1301)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1301
+[05/14/12 11:32:03 +0900 Takasaki-Kenji-no-iMac.local (1301)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 11:32:18 +0900 Takasaki-Kenji-no-iMac.local (1331)] INFO : Dispatcher: thin
+[05/14/12 11:32:18 +0900 Takasaki-Kenji-no-iMac.local (1331)] INFO : Application: development
+[05/14/12 11:32:18 +0900 Takasaki-Kenji-no-iMac.local (1331)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 11:32:18 +0900 Takasaki-Kenji-no-iMac.local (1331)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1331
+[05/14/12 11:32:18 +0900 Takasaki-Kenji-no-iMac.local (1331)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 11:40:50 +0900 Takasaki-Kenji-no-iMac.local (1702)] INFO : Dispatcher: thin
+[05/14/12 11:40:50 +0900 Takasaki-Kenji-no-iMac.local (1702)] INFO : Application: development
+[05/14/12 11:40:50 +0900 Takasaki-Kenji-no-iMac.local (1702)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 11:40:50 +0900 Takasaki-Kenji-no-iMac.local (1702)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1702
+[05/14/12 11:40:50 +0900 Takasaki-Kenji-no-iMac.local (1702)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 11:57:07 +0900 Takasaki-Kenji-no-iMac.local (2394)] INFO : Dispatcher: thin
+[05/14/12 11:57:07 +0900 Takasaki-Kenji-no-iMac.local (2394)] INFO : Application: production
+[05/14/12 11:57:07 +0900 Takasaki-Kenji-no-iMac.local (2394)] ERROR : Invalid license key: 
+[05/14/12 11:57:07 +0900 Takasaki-Kenji-no-iMac.local (2394)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2394
+[05/14/12 11:57:07 +0900 Takasaki-Kenji-no-iMac.local (2394)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 11:57:21 +0900 Takasaki-Kenji-no-iMac.local (2394)] INFO : Dispatcher: thin
+[05/14/12 11:57:21 +0900 Takasaki-Kenji-no-iMac.local (2394)] INFO : Application: production
+[05/14/12 11:57:21 +0900 Takasaki-Kenji-no-iMac.local (2394)] ERROR : Invalid license key: 
+[05/14/12 11:57:21 +0900 Takasaki-Kenji-no-iMac.local (2394)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2394
+[05/14/12 11:57:21 +0900 Takasaki-Kenji-no-iMac.local (2394)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:13:57 +0900 Takasaki-Kenji-no-iMac.local (3739)] INFO : Dispatcher: thin
+[05/14/12 12:13:57 +0900 Takasaki-Kenji-no-iMac.local (3739)] INFO : Application: development
+[05/14/12 12:13:57 +0900 Takasaki-Kenji-no-iMac.local (3739)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 12:13:57 +0900 Takasaki-Kenji-no-iMac.local (3739)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3739
+[05/14/12 12:13:57 +0900 Takasaki-Kenji-no-iMac.local (3739)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:14:11 +0900 Takasaki-Kenji-no-iMac.local (3752)] INFO : Dispatcher: thin
+[05/14/12 12:14:11 +0900 Takasaki-Kenji-no-iMac.local (3752)] INFO : Application: development
+[05/14/12 12:14:11 +0900 Takasaki-Kenji-no-iMac.local (3752)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 12:14:11 +0900 Takasaki-Kenji-no-iMac.local (3752)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3752
+[05/14/12 12:14:11 +0900 Takasaki-Kenji-no-iMac.local (3752)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:16:08 +0900 Takasaki-Kenji-no-iMac.local (3851)] INFO : Dispatcher: thin
+[05/14/12 12:16:08 +0900 Takasaki-Kenji-no-iMac.local (3851)] INFO : Application: production
+[05/14/12 12:16:08 +0900 Takasaki-Kenji-no-iMac.local (3851)] ERROR : Invalid license key: 
+[05/14/12 12:16:08 +0900 Takasaki-Kenji-no-iMac.local (3851)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3851
+[05/14/12 12:16:08 +0900 Takasaki-Kenji-no-iMac.local (3851)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:16:32 +0900 Takasaki-Kenji-no-iMac.local (3851)] INFO : Dispatcher: thin
+[05/14/12 12:16:32 +0900 Takasaki-Kenji-no-iMac.local (3851)] INFO : Application: production
+[05/14/12 12:16:32 +0900 Takasaki-Kenji-no-iMac.local (3851)] ERROR : Invalid license key: 
+[05/14/12 12:16:32 +0900 Takasaki-Kenji-no-iMac.local (3851)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3851
+[05/14/12 12:16:32 +0900 Takasaki-Kenji-no-iMac.local (3851)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:30:05 +0900 Takasaki-Kenji-no-iMac.local (4612)] INFO : Dispatcher: thin
+[05/14/12 12:30:05 +0900 Takasaki-Kenji-no-iMac.local (4612)] INFO : Application: production
+[05/14/12 12:30:05 +0900 Takasaki-Kenji-no-iMac.local (4612)] ERROR : Invalid license key: 
+[05/14/12 12:30:05 +0900 Takasaki-Kenji-no-iMac.local (4612)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4612
+[05/14/12 12:30:05 +0900 Takasaki-Kenji-no-iMac.local (4612)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:30:20 +0900 Takasaki-Kenji-no-iMac.local (4612)] INFO : Dispatcher: thin
+[05/14/12 12:30:20 +0900 Takasaki-Kenji-no-iMac.local (4612)] INFO : Application: production
+[05/14/12 12:30:20 +0900 Takasaki-Kenji-no-iMac.local (4612)] ERROR : Invalid license key: 
+[05/14/12 12:30:20 +0900 Takasaki-Kenji-no-iMac.local (4612)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4612
+[05/14/12 12:30:20 +0900 Takasaki-Kenji-no-iMac.local (4612)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:36:32 +0900 Takasaki-Kenji-no-iMac.local (4987)] INFO : Dispatcher: thin
+[05/14/12 12:36:32 +0900 Takasaki-Kenji-no-iMac.local (4987)] INFO : Application: production
+[05/14/12 12:36:32 +0900 Takasaki-Kenji-no-iMac.local (4987)] ERROR : Invalid license key: 
+[05/14/12 12:36:32 +0900 Takasaki-Kenji-no-iMac.local (4987)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4987
+[05/14/12 12:36:32 +0900 Takasaki-Kenji-no-iMac.local (4987)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:39:59 +0900 Takasaki-Kenji-no-iMac.local (5148)] INFO : Dispatcher: thin
+[05/14/12 12:39:59 +0900 Takasaki-Kenji-no-iMac.local (5148)] INFO : Application: production
+[05/14/12 12:39:59 +0900 Takasaki-Kenji-no-iMac.local (5148)] ERROR : Invalid license key: 
+[05/14/12 12:39:59 +0900 Takasaki-Kenji-no-iMac.local (5148)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5148
+[05/14/12 12:39:59 +0900 Takasaki-Kenji-no-iMac.local (5148)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:40:16 +0900 Takasaki-Kenji-no-iMac.local (5148)] INFO : Dispatcher: thin
+[05/14/12 12:40:16 +0900 Takasaki-Kenji-no-iMac.local (5148)] INFO : Application: production
+[05/14/12 12:40:16 +0900 Takasaki-Kenji-no-iMac.local (5148)] ERROR : Invalid license key: 
+[05/14/12 12:40:16 +0900 Takasaki-Kenji-no-iMac.local (5148)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5148
+[05/14/12 12:40:16 +0900 Takasaki-Kenji-no-iMac.local (5148)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:50:01 +0900 Takasaki-Kenji-no-iMac.local (5719)] INFO : Dispatcher: thin
+[05/14/12 12:50:01 +0900 Takasaki-Kenji-no-iMac.local (5719)] INFO : Application: development
+[05/14/12 12:50:01 +0900 Takasaki-Kenji-no-iMac.local (5719)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 12:50:01 +0900 Takasaki-Kenji-no-iMac.local (5719)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5719
+[05/14/12 12:50:01 +0900 Takasaki-Kenji-no-iMac.local (5719)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:50:39 +0900 Takasaki-Kenji-no-iMac.local (5764)] INFO : Dispatcher: thin
+[05/14/12 12:50:39 +0900 Takasaki-Kenji-no-iMac.local (5764)] INFO : Application: production
+[05/14/12 12:50:39 +0900 Takasaki-Kenji-no-iMac.local (5764)] ERROR : Invalid license key: 
+[05/14/12 12:50:39 +0900 Takasaki-Kenji-no-iMac.local (5764)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5764
+[05/14/12 12:50:39 +0900 Takasaki-Kenji-no-iMac.local (5764)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:51:45 +0900 Takasaki-Kenji-no-iMac.local (5764)] INFO : Dispatcher: thin
+[05/14/12 12:51:45 +0900 Takasaki-Kenji-no-iMac.local (5764)] INFO : Application: production
+[05/14/12 12:51:45 +0900 Takasaki-Kenji-no-iMac.local (5764)] ERROR : Invalid license key: 
+[05/14/12 12:51:45 +0900 Takasaki-Kenji-no-iMac.local (5764)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5764
+[05/14/12 12:51:45 +0900 Takasaki-Kenji-no-iMac.local (5764)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:55:18 +0900 Takasaki-Kenji-no-iMac.local (6028)] INFO : Dispatcher: thin
+[05/14/12 12:55:18 +0900 Takasaki-Kenji-no-iMac.local (6028)] INFO : Application: development
+[05/14/12 12:55:18 +0900 Takasaki-Kenji-no-iMac.local (6028)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 12:55:18 +0900 Takasaki-Kenji-no-iMac.local (6028)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6028
+[05/14/12 12:55:18 +0900 Takasaki-Kenji-no-iMac.local (6028)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:59:08 +0900 Takasaki-Kenji-no-iMac.local (6260)] INFO : Dispatcher: thin
+[05/14/12 12:59:08 +0900 Takasaki-Kenji-no-iMac.local (6260)] INFO : Application: production
+[05/14/12 12:59:08 +0900 Takasaki-Kenji-no-iMac.local (6260)] ERROR : Invalid license key: 
+[05/14/12 12:59:08 +0900 Takasaki-Kenji-no-iMac.local (6260)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6260
+[05/14/12 12:59:08 +0900 Takasaki-Kenji-no-iMac.local (6260)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 12:59:28 +0900 Takasaki-Kenji-no-iMac.local (6260)] INFO : Dispatcher: thin
+[05/14/12 12:59:28 +0900 Takasaki-Kenji-no-iMac.local (6260)] INFO : Application: production
+[05/14/12 12:59:28 +0900 Takasaki-Kenji-no-iMac.local (6260)] ERROR : Invalid license key: 
+[05/14/12 12:59:28 +0900 Takasaki-Kenji-no-iMac.local (6260)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6260
+[05/14/12 12:59:28 +0900 Takasaki-Kenji-no-iMac.local (6260)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:08:58 +0900 Takasaki-Kenji-no-iMac.local (6737)] INFO : Dispatcher: thin
+[05/14/12 13:08:58 +0900 Takasaki-Kenji-no-iMac.local (6737)] INFO : Application: production
+[05/14/12 13:08:58 +0900 Takasaki-Kenji-no-iMac.local (6737)] ERROR : Invalid license key: 
+[05/14/12 13:08:58 +0900 Takasaki-Kenji-no-iMac.local (6737)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6737
+[05/14/12 13:08:58 +0900 Takasaki-Kenji-no-iMac.local (6737)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:09:18 +0900 Takasaki-Kenji-no-iMac.local (6737)] INFO : Dispatcher: thin
+[05/14/12 13:09:18 +0900 Takasaki-Kenji-no-iMac.local (6737)] INFO : Application: production
+[05/14/12 13:09:18 +0900 Takasaki-Kenji-no-iMac.local (6737)] ERROR : Invalid license key: 
+[05/14/12 13:09:18 +0900 Takasaki-Kenji-no-iMac.local (6737)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6737
+[05/14/12 13:09:18 +0900 Takasaki-Kenji-no-iMac.local (6737)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:14:45 +0900 Takasaki-Kenji-no-iMac.local (7070)] INFO : Dispatcher: thin
+[05/14/12 13:14:45 +0900 Takasaki-Kenji-no-iMac.local (7070)] INFO : Application: production
+[05/14/12 13:14:45 +0900 Takasaki-Kenji-no-iMac.local (7070)] ERROR : Invalid license key: 
+[05/14/12 13:14:45 +0900 Takasaki-Kenji-no-iMac.local (7070)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7070
+[05/14/12 13:14:45 +0900 Takasaki-Kenji-no-iMac.local (7070)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:15:14 +0900 Takasaki-Kenji-no-iMac.local (7070)] INFO : Dispatcher: thin
+[05/14/12 13:15:14 +0900 Takasaki-Kenji-no-iMac.local (7070)] INFO : Application: production
+[05/14/12 13:15:14 +0900 Takasaki-Kenji-no-iMac.local (7070)] ERROR : Invalid license key: 
+[05/14/12 13:15:14 +0900 Takasaki-Kenji-no-iMac.local (7070)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7070
+[05/14/12 13:15:14 +0900 Takasaki-Kenji-no-iMac.local (7070)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:20:50 +0900 Takasaki-Kenji-no-iMac.local (7409)] INFO : Dispatcher: thin
+[05/14/12 13:20:50 +0900 Takasaki-Kenji-no-iMac.local (7409)] INFO : Application: production
+[05/14/12 13:20:50 +0900 Takasaki-Kenji-no-iMac.local (7409)] ERROR : Invalid license key: 
+[05/14/12 13:20:50 +0900 Takasaki-Kenji-no-iMac.local (7409)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7409
+[05/14/12 13:20:50 +0900 Takasaki-Kenji-no-iMac.local (7409)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:21:19 +0900 Takasaki-Kenji-no-iMac.local (7409)] INFO : Dispatcher: thin
+[05/14/12 13:21:19 +0900 Takasaki-Kenji-no-iMac.local (7409)] INFO : Application: production
+[05/14/12 13:21:19 +0900 Takasaki-Kenji-no-iMac.local (7409)] ERROR : Invalid license key: 
+[05/14/12 13:21:19 +0900 Takasaki-Kenji-no-iMac.local (7409)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7409
+[05/14/12 13:21:19 +0900 Takasaki-Kenji-no-iMac.local (7409)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:44:04 +0900 Takasaki-Kenji-no-iMac.local (8822)] INFO : Dispatcher: thin
+[05/14/12 13:44:04 +0900 Takasaki-Kenji-no-iMac.local (8822)] INFO : Application: production
+[05/14/12 13:44:04 +0900 Takasaki-Kenji-no-iMac.local (8822)] ERROR : Invalid license key: 
+[05/14/12 13:44:04 +0900 Takasaki-Kenji-no-iMac.local (8822)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 8822
+[05/14/12 13:44:04 +0900 Takasaki-Kenji-no-iMac.local (8822)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:47:09 +0900 Takasaki-Kenji-no-iMac.local (9026)] INFO : Dispatcher: thin
+[05/14/12 13:47:09 +0900 Takasaki-Kenji-no-iMac.local (9026)] INFO : Application: production
+[05/14/12 13:47:09 +0900 Takasaki-Kenji-no-iMac.local (9026)] ERROR : Invalid license key: 
+[05/14/12 13:47:09 +0900 Takasaki-Kenji-no-iMac.local (9026)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 9026
+[05/14/12 13:47:09 +0900 Takasaki-Kenji-no-iMac.local (9026)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 13:47:37 +0900 Takasaki-Kenji-no-iMac.local (9026)] INFO : Dispatcher: thin
+[05/14/12 13:47:37 +0900 Takasaki-Kenji-no-iMac.local (9026)] INFO : Application: production
+[05/14/12 13:47:37 +0900 Takasaki-Kenji-no-iMac.local (9026)] ERROR : Invalid license key: 
+[05/14/12 13:47:37 +0900 Takasaki-Kenji-no-iMac.local (9026)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 9026
+[05/14/12 13:47:37 +0900 Takasaki-Kenji-no-iMac.local (9026)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 17:06:45 +0900 Takasaki-Kenji-no-iMac.local (1563)] INFO : Dispatcher: thin
+[05/14/12 17:06:45 +0900 Takasaki-Kenji-no-iMac.local (1563)] INFO : Application: development
+[05/14/12 17:06:45 +0900 Takasaki-Kenji-no-iMac.local (1563)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 17:06:45 +0900 Takasaki-Kenji-no-iMac.local (1563)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1563
+[05/14/12 17:06:45 +0900 Takasaki-Kenji-no-iMac.local (1563)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 17:06:56 +0900 Takasaki-Kenji-no-iMac.local (1594)] INFO : Dispatcher: thin
+[05/14/12 17:06:56 +0900 Takasaki-Kenji-no-iMac.local (1594)] INFO : Application: development
+[05/14/12 17:06:56 +0900 Takasaki-Kenji-no-iMac.local (1594)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 17:06:56 +0900 Takasaki-Kenji-no-iMac.local (1594)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1594
+[05/14/12 17:06:56 +0900 Takasaki-Kenji-no-iMac.local (1594)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (595)] INFO : Dispatcher: thin
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (521)] INFO : Dispatcher: thin
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (595)] INFO : Application: development
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (521)] INFO : Application: development
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (595)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (521)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (595)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 595
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (521)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 521
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (521)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 17:54:09 +0900 Takasaki-Kenji-no-iMac.local (595)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 18:53:43 +0900 Takasaki-Kenji-no-iMac.local (3941)] INFO : Dispatcher: thin
+[05/14/12 18:53:43 +0900 Takasaki-Kenji-no-iMac.local (3941)] INFO : Application: development
+[05/14/12 18:53:43 +0900 Takasaki-Kenji-no-iMac.local (3941)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 18:53:43 +0900 Takasaki-Kenji-no-iMac.local (3941)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3941
+[05/14/12 18:53:43 +0900 Takasaki-Kenji-no-iMac.local (3941)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 19:46:21 +0900 Takasaki-Kenji-no-iMac.local (6463)] INFO : Dispatcher: thin
+[05/14/12 19:46:21 +0900 Takasaki-Kenji-no-iMac.local (6463)] INFO : Application: development
+[05/14/12 19:46:21 +0900 Takasaki-Kenji-no-iMac.local (6463)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 19:46:21 +0900 Takasaki-Kenji-no-iMac.local (6463)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6463
+[05/14/12 19:46:21 +0900 Takasaki-Kenji-no-iMac.local (6463)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 19:47:37 +0900 Takasaki-Kenji-no-iMac.local (6536)] INFO : Dispatcher: thin
+[05/14/12 19:47:37 +0900 Takasaki-Kenji-no-iMac.local (6536)] INFO : Application: development
+[05/14/12 19:47:37 +0900 Takasaki-Kenji-no-iMac.local (6536)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 19:47:37 +0900 Takasaki-Kenji-no-iMac.local (6536)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6536
+[05/14/12 19:47:37 +0900 Takasaki-Kenji-no-iMac.local (6536)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 19:50:54 +0900 Takasaki-Kenji-no-iMac.local (6703)] INFO : Dispatcher: thin
+[05/14/12 19:50:54 +0900 Takasaki-Kenji-no-iMac.local (6703)] INFO : Application: development
+[05/14/12 19:50:54 +0900 Takasaki-Kenji-no-iMac.local (6703)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 19:50:54 +0900 Takasaki-Kenji-no-iMac.local (6703)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6703
+[05/14/12 19:50:54 +0900 Takasaki-Kenji-no-iMac.local (6703)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 19:51:12 +0900 Takasaki-Kenji-no-iMac.local (6733)] INFO : Dispatcher: thin
+[05/14/12 19:51:12 +0900 Takasaki-Kenji-no-iMac.local (6733)] INFO : Application: development
+[05/14/12 19:51:12 +0900 Takasaki-Kenji-no-iMac.local (6733)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 19:51:12 +0900 Takasaki-Kenji-no-iMac.local (6733)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6733
+[05/14/12 19:51:12 +0900 Takasaki-Kenji-no-iMac.local (6733)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 21:35:14 +0900 Takasaki-Kenji-no-iMac.local (3358)] INFO : Dispatcher: thin
+[05/14/12 21:35:14 +0900 Takasaki-Kenji-no-iMac.local (3358)] INFO : Application: development
+[05/14/12 21:35:14 +0900 Takasaki-Kenji-no-iMac.local (3358)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 21:35:14 +0900 Takasaki-Kenji-no-iMac.local (3358)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3358
+[05/14/12 21:35:14 +0900 Takasaki-Kenji-no-iMac.local (3358)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 21:35:18 +0900 Takasaki-Kenji-no-iMac.local (3372)] INFO : Dispatcher: thin
+[05/14/12 21:35:18 +0900 Takasaki-Kenji-no-iMac.local (3372)] INFO : Application: production
+[05/14/12 21:35:18 +0900 Takasaki-Kenji-no-iMac.local (3372)] ERROR : Invalid license key: 
+[05/14/12 21:35:18 +0900 Takasaki-Kenji-no-iMac.local (3372)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3372
+[05/14/12 21:35:18 +0900 Takasaki-Kenji-no-iMac.local (3372)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 21:35:38 +0900 Takasaki-Kenji-no-iMac.local (3396)] INFO : Dispatcher: thin
+[05/14/12 21:35:38 +0900 Takasaki-Kenji-no-iMac.local (3396)] INFO : Application: development
+[05/14/12 21:35:38 +0900 Takasaki-Kenji-no-iMac.local (3396)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 21:35:38 +0900 Takasaki-Kenji-no-iMac.local (3396)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3396
+[05/14/12 21:35:38 +0900 Takasaki-Kenji-no-iMac.local (3396)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 21:36:10 +0900 Takasaki-Kenji-no-iMac.local (3435)] INFO : Dispatcher: thin
+[05/14/12 21:36:10 +0900 Takasaki-Kenji-no-iMac.local (3435)] INFO : Application: production
+[05/14/12 21:36:10 +0900 Takasaki-Kenji-no-iMac.local (3435)] ERROR : Invalid license key: 
+[05/14/12 21:36:10 +0900 Takasaki-Kenji-no-iMac.local (3435)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3435
+[05/14/12 21:36:10 +0900 Takasaki-Kenji-no-iMac.local (3435)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 21:38:47 +0900 Takasaki-Kenji-no-iMac.local (3581)] INFO : Dispatcher: thin
+[05/14/12 21:38:47 +0900 Takasaki-Kenji-no-iMac.local (3581)] INFO : Application: development
+[05/14/12 21:38:47 +0900 Takasaki-Kenji-no-iMac.local (3581)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 21:38:47 +0900 Takasaki-Kenji-no-iMac.local (3581)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3581
+[05/14/12 21:38:47 +0900 Takasaki-Kenji-no-iMac.local (3581)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:09:12 +0900 Takasaki-Kenji-no-iMac.local (5321)] INFO : Dispatcher: thin
+[05/14/12 22:09:12 +0900 Takasaki-Kenji-no-iMac.local (5321)] INFO : Application: production
+[05/14/12 22:09:12 +0900 Takasaki-Kenji-no-iMac.local (5321)] ERROR : Invalid license key: 
+[05/14/12 22:09:12 +0900 Takasaki-Kenji-no-iMac.local (5321)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5321
+[05/14/12 22:09:12 +0900 Takasaki-Kenji-no-iMac.local (5321)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:11:32 +0900 Takasaki-Kenji-no-iMac.local (5458)] INFO : Dispatcher: thin
+[05/14/12 22:11:32 +0900 Takasaki-Kenji-no-iMac.local (5458)] INFO : Application: development
+[05/14/12 22:11:32 +0900 Takasaki-Kenji-no-iMac.local (5458)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 22:11:32 +0900 Takasaki-Kenji-no-iMac.local (5458)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5458
+[05/14/12 22:11:32 +0900 Takasaki-Kenji-no-iMac.local (5458)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:13:59 +0900 Takasaki-Kenji-no-iMac.local (5581)] INFO : Dispatcher: thin
+[05/14/12 22:13:59 +0900 Takasaki-Kenji-no-iMac.local (5581)] INFO : Application: development
+[05/14/12 22:13:59 +0900 Takasaki-Kenji-no-iMac.local (5581)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 22:13:59 +0900 Takasaki-Kenji-no-iMac.local (5581)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5581
+[05/14/12 22:13:59 +0900 Takasaki-Kenji-no-iMac.local (5581)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:14:23 +0900 Takasaki-Kenji-no-iMac.local (5604)] INFO : Dispatcher: thin
+[05/14/12 22:14:23 +0900 Takasaki-Kenji-no-iMac.local (5604)] INFO : Application: development
+[05/14/12 22:14:23 +0900 Takasaki-Kenji-no-iMac.local (5604)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 22:14:23 +0900 Takasaki-Kenji-no-iMac.local (5604)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5604
+[05/14/12 22:14:23 +0900 Takasaki-Kenji-no-iMac.local (5604)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:31:35 +0900 Takasaki-Kenji-no-iMac.local (6313)] INFO : Dispatcher: thin
+[05/14/12 22:31:35 +0900 Takasaki-Kenji-no-iMac.local (6313)] INFO : Application: development
+[05/14/12 22:31:35 +0900 Takasaki-Kenji-no-iMac.local (6313)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 22:31:35 +0900 Takasaki-Kenji-no-iMac.local (6313)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6313
+[05/14/12 22:31:35 +0900 Takasaki-Kenji-no-iMac.local (6313)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:46:27 +0900 Takasaki-Kenji-no-iMac.local (6886)] INFO : Dispatcher: thin
+[05/14/12 22:46:27 +0900 Takasaki-Kenji-no-iMac.local (6886)] INFO : Application: development
+[05/14/12 22:46:27 +0900 Takasaki-Kenji-no-iMac.local (6886)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 22:46:27 +0900 Takasaki-Kenji-no-iMac.local (6886)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6886
+[05/14/12 22:46:27 +0900 Takasaki-Kenji-no-iMac.local (6886)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:48:04 +0900 Takasaki-Kenji-no-iMac.local (6966)] INFO : Dispatcher: thin
+[05/14/12 22:48:04 +0900 Takasaki-Kenji-no-iMac.local (6966)] INFO : Application: production
+[05/14/12 22:48:04 +0900 Takasaki-Kenji-no-iMac.local (6966)] ERROR : Invalid license key: 
+[05/14/12 22:48:04 +0900 Takasaki-Kenji-no-iMac.local (6966)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6966
+[05/14/12 22:48:04 +0900 Takasaki-Kenji-no-iMac.local (6966)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:51:12 +0900 Takasaki-Kenji-no-iMac.local (7109)] INFO : Dispatcher: thin
+[05/14/12 22:51:12 +0900 Takasaki-Kenji-no-iMac.local (7109)] INFO : Application: production
+[05/14/12 22:51:12 +0900 Takasaki-Kenji-no-iMac.local (7109)] ERROR : Invalid license key: 
+[05/14/12 22:51:12 +0900 Takasaki-Kenji-no-iMac.local (7109)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7109
+[05/14/12 22:51:12 +0900 Takasaki-Kenji-no-iMac.local (7109)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:52:25 +0900 Takasaki-Kenji-no-iMac.local (7179)] INFO : Dispatcher: thin
+[05/14/12 22:52:25 +0900 Takasaki-Kenji-no-iMac.local (7179)] INFO : Application: production
+[05/14/12 22:52:25 +0900 Takasaki-Kenji-no-iMac.local (7179)] ERROR : Invalid license key: 
+[05/14/12 22:52:25 +0900 Takasaki-Kenji-no-iMac.local (7179)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7179
+[05/14/12 22:52:25 +0900 Takasaki-Kenji-no-iMac.local (7179)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:52:44 +0900 Takasaki-Kenji-no-iMac.local (7179)] INFO : Dispatcher: thin
+[05/14/12 22:52:44 +0900 Takasaki-Kenji-no-iMac.local (7179)] INFO : Application: production
+[05/14/12 22:52:44 +0900 Takasaki-Kenji-no-iMac.local (7179)] ERROR : Invalid license key: 
+[05/14/12 22:52:44 +0900 Takasaki-Kenji-no-iMac.local (7179)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7179
+[05/14/12 22:52:44 +0900 Takasaki-Kenji-no-iMac.local (7179)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:58:29 +0900 Takasaki-Kenji-no-iMac.local (7800)] INFO : Dispatcher: thin
+[05/14/12 22:58:29 +0900 Takasaki-Kenji-no-iMac.local (7800)] INFO : Application: production
+[05/14/12 22:58:29 +0900 Takasaki-Kenji-no-iMac.local (7800)] ERROR : Invalid license key: 
+[05/14/12 22:58:29 +0900 Takasaki-Kenji-no-iMac.local (7800)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7800
+[05/14/12 22:58:29 +0900 Takasaki-Kenji-no-iMac.local (7800)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 22:58:54 +0900 Takasaki-Kenji-no-iMac.local (7800)] INFO : Dispatcher: thin
+[05/14/12 22:58:54 +0900 Takasaki-Kenji-no-iMac.local (7800)] INFO : Application: production
+[05/14/12 22:58:54 +0900 Takasaki-Kenji-no-iMac.local (7800)] ERROR : Invalid license key: 
+[05/14/12 22:58:54 +0900 Takasaki-Kenji-no-iMac.local (7800)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7800
+[05/14/12 22:58:54 +0900 Takasaki-Kenji-no-iMac.local (7800)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 23:12:24 +0900 Takasaki-Kenji-no-iMac.local (8446)] INFO : Dispatcher: thin
+[05/14/12 23:12:24 +0900 Takasaki-Kenji-no-iMac.local (8446)] INFO : Application: production
+[05/14/12 23:12:24 +0900 Takasaki-Kenji-no-iMac.local (8446)] ERROR : Invalid license key: 
+[05/14/12 23:12:24 +0900 Takasaki-Kenji-no-iMac.local (8446)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 8446
+[05/14/12 23:12:24 +0900 Takasaki-Kenji-no-iMac.local (8446)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 23:14:07 +0900 Takasaki-Kenji-no-iMac.local (8528)] INFO : Dispatcher: thin
+[05/14/12 23:14:07 +0900 Takasaki-Kenji-no-iMac.local (8528)] INFO : Application: development
+[05/14/12 23:14:07 +0900 Takasaki-Kenji-no-iMac.local (8528)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 23:14:07 +0900 Takasaki-Kenji-no-iMac.local (8528)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 8528
+[05/14/12 23:14:07 +0900 Takasaki-Kenji-no-iMac.local (8528)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 23:14:18 +0900 Takasaki-Kenji-no-iMac.local (8547)] INFO : Dispatcher: thin
+[05/14/12 23:14:18 +0900 Takasaki-Kenji-no-iMac.local (8547)] INFO : Application: development
+[05/14/12 23:14:18 +0900 Takasaki-Kenji-no-iMac.local (8547)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/14/12 23:14:18 +0900 Takasaki-Kenji-no-iMac.local (8547)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 8547
+[05/14/12 23:14:18 +0900 Takasaki-Kenji-no-iMac.local (8547)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 23:15:44 +0900 Takasaki-Kenji-no-iMac.local (8644)] INFO : Dispatcher: thin
+[05/14/12 23:15:44 +0900 Takasaki-Kenji-no-iMac.local (8644)] INFO : Application: production
+[05/14/12 23:15:44 +0900 Takasaki-Kenji-no-iMac.local (8644)] ERROR : Invalid license key: 
+[05/14/12 23:15:44 +0900 Takasaki-Kenji-no-iMac.local (8644)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 8644
+[05/14/12 23:15:44 +0900 Takasaki-Kenji-no-iMac.local (8644)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 23:18:40 +0900 Takasaki-Kenji-no-iMac.local (8789)] INFO : Dispatcher: thin
+[05/14/12 23:18:40 +0900 Takasaki-Kenji-no-iMac.local (8789)] INFO : Application: production
+[05/14/12 23:18:40 +0900 Takasaki-Kenji-no-iMac.local (8789)] ERROR : Invalid license key: 
+[05/14/12 23:18:40 +0900 Takasaki-Kenji-no-iMac.local (8789)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 8789
+[05/14/12 23:18:40 +0900 Takasaki-Kenji-no-iMac.local (8789)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/14/12 23:20:13 +0900 Takasaki-Kenji-no-iMac.local (8789)] INFO : Dispatcher: thin
+[05/14/12 23:20:13 +0900 Takasaki-Kenji-no-iMac.local (8789)] INFO : Application: production
+[05/14/12 23:20:13 +0900 Takasaki-Kenji-no-iMac.local (8789)] ERROR : Invalid license key: 
+[05/14/12 23:20:13 +0900 Takasaki-Kenji-no-iMac.local (8789)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 8789
+[05/14/12 23:20:13 +0900 Takasaki-Kenji-no-iMac.local (8789)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/15/12 13:30:31 +0900 takasaki-kenji-no-MacBook-Pro.local (4874)] INFO : Dispatcher: thin
+[05/15/12 13:30:31 +0900 takasaki-kenji-no-MacBook-Pro.local (4874)] INFO : Application: development
+[05/15/12 13:30:31 +0900 takasaki-kenji-no-MacBook-Pro.local (4874)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/15/12 13:30:31 +0900 takasaki-kenji-no-MacBook-Pro.local (4874)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4874
+[05/15/12 13:30:31 +0900 takasaki-kenji-no-MacBook-Pro.local (4874)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/15/12 13:31:12 +0900 takasaki-kenji-no-MacBook-Pro.local (4906)] INFO : Dispatcher: thin
+[05/15/12 13:31:12 +0900 takasaki-kenji-no-MacBook-Pro.local (4906)] INFO : Application: development
+[05/15/12 13:31:12 +0900 takasaki-kenji-no-MacBook-Pro.local (4906)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/15/12 13:31:12 +0900 takasaki-kenji-no-MacBook-Pro.local (4906)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4906
+[05/15/12 13:31:12 +0900 takasaki-kenji-no-MacBook-Pro.local (4906)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/15/12 16:56:02 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] INFO : Dispatcher: thin
+[05/15/12 16:56:02 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] INFO : Application: production
+[05/15/12 16:56:02 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] ERROR : Invalid license key: 
+[05/15/12 16:56:02 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2741
+[05/15/12 16:56:02 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/15/12 16:57:04 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] INFO : Dispatcher: thin
+[05/15/12 16:57:04 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] INFO : Application: production
+[05/15/12 16:57:04 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] ERROR : Invalid license key: 
+[05/15/12 16:57:04 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2741
+[05/15/12 16:57:04 +0900 takasaki-kenji-no-MacBook-Pro.local (2741)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/15/12 17:07:24 +0900 takasaki-kenji-no-MacBook-Pro.local (3548)] INFO : Dispatcher: thin
+[05/15/12 17:07:24 +0900 takasaki-kenji-no-MacBook-Pro.local (3548)] INFO : Application: development
+[05/15/12 17:07:24 +0900 takasaki-kenji-no-MacBook-Pro.local (3548)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/15/12 17:07:24 +0900 takasaki-kenji-no-MacBook-Pro.local (3548)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3548
+[05/15/12 17:07:24 +0900 takasaki-kenji-no-MacBook-Pro.local (3548)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/15/12 17:07:57 +0900 takasaki-kenji-no-MacBook-Pro.local (3565)] INFO : Dispatcher: thin
+[05/15/12 17:07:57 +0900 takasaki-kenji-no-MacBook-Pro.local (3565)] INFO : Application: development
+[05/15/12 17:07:57 +0900 takasaki-kenji-no-MacBook-Pro.local (3565)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/15/12 17:07:57 +0900 takasaki-kenji-no-MacBook-Pro.local (3565)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3565
+[05/15/12 17:07:57 +0900 takasaki-kenji-no-MacBook-Pro.local (3565)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 14:04:48 +0900 takasaki-kenji-no-MacBook-Pro.local (788)] INFO : Dispatcher: thin
+[05/16/12 14:04:48 +0900 takasaki-kenji-no-MacBook-Pro.local (788)] INFO : Application: development
+[05/16/12 14:04:48 +0900 takasaki-kenji-no-MacBook-Pro.local (788)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 14:04:48 +0900 takasaki-kenji-no-MacBook-Pro.local (788)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 788
+[05/16/12 14:04:48 +0900 takasaki-kenji-no-MacBook-Pro.local (788)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 14:10:19 +0900 takasaki-kenji-no-MacBook-Pro.local (910)] INFO : Dispatcher: thin
+[05/16/12 14:10:19 +0900 takasaki-kenji-no-MacBook-Pro.local (910)] INFO : Application: development
+[05/16/12 14:10:19 +0900 takasaki-kenji-no-MacBook-Pro.local (910)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 14:10:19 +0900 takasaki-kenji-no-MacBook-Pro.local (910)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 910
+[05/16/12 14:10:19 +0900 takasaki-kenji-no-MacBook-Pro.local (910)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 14:13:00 +0900 takasaki-kenji-no-MacBook-Pro.local (986)] INFO : Dispatcher: thin
+[05/16/12 14:13:00 +0900 takasaki-kenji-no-MacBook-Pro.local (986)] INFO : Application: development
+[05/16/12 14:13:00 +0900 takasaki-kenji-no-MacBook-Pro.local (986)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 14:13:00 +0900 takasaki-kenji-no-MacBook-Pro.local (986)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 986
+[05/16/12 14:13:00 +0900 takasaki-kenji-no-MacBook-Pro.local (986)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 15:08:08 +0900 takasaki-kenji-no-MacBook-Pro.local (5079)] INFO : Dispatcher: thin
+[05/16/12 15:08:08 +0900 takasaki-kenji-no-MacBook-Pro.local (5079)] INFO : Application: development
+[05/16/12 15:08:08 +0900 takasaki-kenji-no-MacBook-Pro.local (5079)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 15:08:08 +0900 takasaki-kenji-no-MacBook-Pro.local (5079)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5079
+[05/16/12 15:08:08 +0900 takasaki-kenji-no-MacBook-Pro.local (5079)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 15:08:29 +0900 takasaki-kenji-no-MacBook-Pro.local (5089)] INFO : Dispatcher: thin
+[05/16/12 15:08:29 +0900 takasaki-kenji-no-MacBook-Pro.local (5089)] INFO : Application: development
+[05/16/12 15:08:29 +0900 takasaki-kenji-no-MacBook-Pro.local (5089)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 15:08:29 +0900 takasaki-kenji-no-MacBook-Pro.local (5089)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5089
+[05/16/12 15:08:29 +0900 takasaki-kenji-no-MacBook-Pro.local (5089)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 15:34:14 +0900 takasaki-kenji-no-MacBook-Pro.local (6028)] INFO : Dispatcher: thin
+[05/16/12 15:34:14 +0900 takasaki-kenji-no-MacBook-Pro.local (6028)] INFO : Application: development
+[05/16/12 15:34:14 +0900 takasaki-kenji-no-MacBook-Pro.local (6028)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 15:34:14 +0900 takasaki-kenji-no-MacBook-Pro.local (6028)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6028
+[05/16/12 15:34:14 +0900 takasaki-kenji-no-MacBook-Pro.local (6028)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 15:34:57 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] INFO : Dispatcher: thin
+[05/16/12 15:34:57 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] INFO : Application: production
+[05/16/12 15:34:57 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] ERROR : Invalid license key: 
+[05/16/12 15:34:57 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6060
+[05/16/12 15:34:57 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 15:36:05 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] INFO : Dispatcher: thin
+[05/16/12 15:36:05 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] INFO : Application: production
+[05/16/12 15:36:05 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] ERROR : Invalid license key: 
+[05/16/12 15:36:05 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6060
+[05/16/12 15:36:05 +0900 takasaki-kenji-no-MacBook-Pro.local (6060)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 15:47:43 +0900 takasaki-kenji-no-MacBook-Pro.local (6671)] INFO : Dispatcher: thin
+[05/16/12 15:47:43 +0900 takasaki-kenji-no-MacBook-Pro.local (6671)] INFO : Application: development
+[05/16/12 15:47:43 +0900 takasaki-kenji-no-MacBook-Pro.local (6671)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 15:47:43 +0900 takasaki-kenji-no-MacBook-Pro.local (6671)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6671
+[05/16/12 15:47:43 +0900 takasaki-kenji-no-MacBook-Pro.local (6671)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (7228)] INFO : Dispatcher: thin
+[05/16/12 16:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (7228)] INFO : Application: development
+[05/16/12 16:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (7228)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 16:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (7228)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7228
+[05/16/12 16:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (7228)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:09:20 +0900 takasaki-kenji-no-MacBook-Pro.local (7243)] INFO : Dispatcher: thin
+[05/16/12 16:09:20 +0900 takasaki-kenji-no-MacBook-Pro.local (7243)] INFO : Application: development
+[05/16/12 16:09:20 +0900 takasaki-kenji-no-MacBook-Pro.local (7243)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 16:09:20 +0900 takasaki-kenji-no-MacBook-Pro.local (7243)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7243
+[05/16/12 16:09:20 +0900 takasaki-kenji-no-MacBook-Pro.local (7243)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:16:02 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] INFO : Dispatcher: thin
+[05/16/12 16:16:02 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] INFO : Application: production
+[05/16/12 16:16:02 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] ERROR : Invalid license key: 
+[05/16/12 16:16:02 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7479
+[05/16/12 16:16:02 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:16:45 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] INFO : Dispatcher: thin
+[05/16/12 16:16:45 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] INFO : Application: production
+[05/16/12 16:16:45 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] ERROR : Invalid license key: 
+[05/16/12 16:16:45 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7479
+[05/16/12 16:16:45 +0900 takasaki-kenji-no-MacBook-Pro.local (7479)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:17:50 +0900 takasaki-kenji-no-MacBook-Pro.local (7558)] INFO : Dispatcher: thin
+[05/16/12 16:17:50 +0900 takasaki-kenji-no-MacBook-Pro.local (7558)] INFO : Application: production
+[05/16/12 16:17:50 +0900 takasaki-kenji-no-MacBook-Pro.local (7558)] ERROR : Invalid license key: 
+[05/16/12 16:17:50 +0900 takasaki-kenji-no-MacBook-Pro.local (7558)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7558
+[05/16/12 16:17:50 +0900 takasaki-kenji-no-MacBook-Pro.local (7558)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:18:34 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] INFO : Dispatcher: thin
+[05/16/12 16:18:34 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] INFO : Application: production
+[05/16/12 16:18:34 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] ERROR : Invalid license key: 
+[05/16/12 16:18:34 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7593
+[05/16/12 16:18:34 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:19:23 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] INFO : Dispatcher: thin
+[05/16/12 16:19:23 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] INFO : Application: production
+[05/16/12 16:19:23 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] ERROR : Invalid license key: 
+[05/16/12 16:19:23 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7593
+[05/16/12 16:19:23 +0900 takasaki-kenji-no-MacBook-Pro.local (7593)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:36:07 +0900 takasaki-kenji-no-MacBook-Pro.local (521)] INFO : Dispatcher: thin
+[05/16/12 16:36:08 +0900 takasaki-kenji-no-MacBook-Pro.local (521)] INFO : Application: development
+[05/16/12 16:36:08 +0900 takasaki-kenji-no-MacBook-Pro.local (521)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 16:36:07 +0900 takasaki-kenji-no-MacBook-Pro.local (488)] INFO : Dispatcher: thin
+[05/16/12 16:36:08 +0900 takasaki-kenji-no-MacBook-Pro.local (521)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 521
+[05/16/12 16:36:08 +0900 takasaki-kenji-no-MacBook-Pro.local (521)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:36:08 +0900 takasaki-kenji-no-MacBook-Pro.local (488)] INFO : Application: development
+[05/16/12 16:36:08 +0900 takasaki-kenji-no-MacBook-Pro.local (488)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 16:36:08 +0900 takasaki-kenji-no-MacBook-Pro.local (488)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 488
+[05/16/12 16:36:08 +0900 takasaki-kenji-no-MacBook-Pro.local (488)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:41:15 +0900 takasaki-kenji-no-MacBook-Pro.local (712)] INFO : Dispatcher: thin
+[05/16/12 16:41:15 +0900 takasaki-kenji-no-MacBook-Pro.local (712)] INFO : Application: development
+[05/16/12 16:41:15 +0900 takasaki-kenji-no-MacBook-Pro.local (712)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 16:41:15 +0900 takasaki-kenji-no-MacBook-Pro.local (712)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 712
+[05/16/12 16:41:15 +0900 takasaki-kenji-no-MacBook-Pro.local (712)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:44:51 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] INFO : Dispatcher: thin
+[05/16/12 16:44:51 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] INFO : Application: production
+[05/16/12 16:44:51 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] ERROR : Invalid license key: 
+[05/16/12 16:44:51 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 844
+[05/16/12 16:44:51 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 16:45:46 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] INFO : Dispatcher: thin
+[05/16/12 16:45:46 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] INFO : Application: production
+[05/16/12 16:45:46 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] ERROR : Invalid license key: 
+[05/16/12 16:45:46 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 844
+[05/16/12 16:45:46 +0900 takasaki-kenji-no-MacBook-Pro.local (844)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 17:03:33 +0900 takasaki-kenji-no-MacBook-Pro.local (1568)] INFO : Dispatcher: thin
+[05/16/12 17:03:33 +0900 takasaki-kenji-no-MacBook-Pro.local (1568)] INFO : Application: production
+[05/16/12 17:03:33 +0900 takasaki-kenji-no-MacBook-Pro.local (1568)] ERROR : Invalid license key: 
+[05/16/12 17:03:33 +0900 takasaki-kenji-no-MacBook-Pro.local (1568)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1568
+[05/16/12 17:03:33 +0900 takasaki-kenji-no-MacBook-Pro.local (1568)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 17:04:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] INFO : Dispatcher: thin
+[05/16/12 17:04:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] INFO : Application: production
+[05/16/12 17:04:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] ERROR : Invalid license key: 
+[05/16/12 17:04:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1604
+[05/16/12 17:04:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 17:05:13 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] INFO : Dispatcher: thin
+[05/16/12 17:05:13 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] INFO : Application: production
+[05/16/12 17:05:13 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] ERROR : Invalid license key: 
+[05/16/12 17:05:13 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1604
+[05/16/12 17:05:13 +0900 takasaki-kenji-no-MacBook-Pro.local (1604)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 17:21:08 +0900 takasaki-kenji-no-MacBook-Pro.local (3246)] INFO : Dispatcher: thin
+[05/16/12 17:21:08 +0900 takasaki-kenji-no-MacBook-Pro.local (3246)] INFO : Application: development
+[05/16/12 17:21:08 +0900 takasaki-kenji-no-MacBook-Pro.local (3246)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 17:21:08 +0900 takasaki-kenji-no-MacBook-Pro.local (3246)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3246
+[05/16/12 17:21:08 +0900 takasaki-kenji-no-MacBook-Pro.local (3246)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 17:21:34 +0900 takasaki-kenji-no-MacBook-Pro.local (3265)] INFO : Dispatcher: thin
+[05/16/12 17:21:34 +0900 takasaki-kenji-no-MacBook-Pro.local (3265)] INFO : Application: development
+[05/16/12 17:21:34 +0900 takasaki-kenji-no-MacBook-Pro.local (3265)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 17:21:34 +0900 takasaki-kenji-no-MacBook-Pro.local (3265)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3265
+[05/16/12 17:21:34 +0900 takasaki-kenji-no-MacBook-Pro.local (3265)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (558)] INFO : Dispatcher: thin
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (608)] INFO : Dispatcher: thin
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (608)] INFO : Application: development
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (558)] INFO : Application: development
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (608)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (608)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 608
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (558)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (608)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (558)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 558
+[05/16/12 22:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (558)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 22:24:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1092)] INFO : Dispatcher: thin
+[05/16/12 22:24:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1092)] INFO : Application: development
+[05/16/12 22:24:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1092)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 22:24:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1092)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1092
+[05/16/12 22:24:29 +0900 takasaki-kenji-no-MacBook-Pro.local (1092)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 22:57:37 +0900 takasaki-kenji-no-MacBook-Pro.local (2524)] INFO : Dispatcher: thin
+[05/16/12 22:57:37 +0900 takasaki-kenji-no-MacBook-Pro.local (2524)] INFO : Application: development
+[05/16/12 22:57:37 +0900 takasaki-kenji-no-MacBook-Pro.local (2524)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 22:57:37 +0900 takasaki-kenji-no-MacBook-Pro.local (2524)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2524
+[05/16/12 22:57:37 +0900 takasaki-kenji-no-MacBook-Pro.local (2524)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 22:57:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2545)] INFO : Dispatcher: thin
+[05/16/12 22:57:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2545)] INFO : Application: development
+[05/16/12 22:57:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2545)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 22:57:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2545)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2545
+[05/16/12 22:57:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2545)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 23:14:59 +0900 takasaki-kenji-no-MacBook-Pro.local (3706)] INFO : Dispatcher: thin
+[05/16/12 23:14:59 +0900 takasaki-kenji-no-MacBook-Pro.local (3706)] INFO : Application: development
+[05/16/12 23:14:59 +0900 takasaki-kenji-no-MacBook-Pro.local (3706)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 23:14:59 +0900 takasaki-kenji-no-MacBook-Pro.local (3706)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3706
+[05/16/12 23:14:59 +0900 takasaki-kenji-no-MacBook-Pro.local (3706)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 23:15:21 +0900 takasaki-kenji-no-MacBook-Pro.local (3717)] INFO : Dispatcher: thin
+[05/16/12 23:15:21 +0900 takasaki-kenji-no-MacBook-Pro.local (3717)] INFO : Application: development
+[05/16/12 23:15:21 +0900 takasaki-kenji-no-MacBook-Pro.local (3717)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 23:15:21 +0900 takasaki-kenji-no-MacBook-Pro.local (3717)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3717
+[05/16/12 23:15:21 +0900 takasaki-kenji-no-MacBook-Pro.local (3717)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/16/12 23:25:43 +0900 takasaki-kenji-no-MacBook-Pro.local (4360)] INFO : Dispatcher: thin
+[05/16/12 23:25:43 +0900 takasaki-kenji-no-MacBook-Pro.local (4360)] INFO : Application: development
+[05/16/12 23:25:43 +0900 takasaki-kenji-no-MacBook-Pro.local (4360)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/16/12 23:25:43 +0900 takasaki-kenji-no-MacBook-Pro.local (4360)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4360
+[05/16/12 23:25:43 +0900 takasaki-kenji-no-MacBook-Pro.local (4360)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 10:19:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1303)] INFO : Dispatcher: thin
+[05/17/12 10:19:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1303)] INFO : Application: development
+[05/17/12 10:19:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1303)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 10:19:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1303)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1303
+[05/17/12 10:19:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1303)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 10:20:19 +0900 takasaki-kenji-no-MacBook-Pro.local (1421)] INFO : Dispatcher: thin
+[05/17/12 10:20:19 +0900 takasaki-kenji-no-MacBook-Pro.local (1421)] INFO : Application: development
+[05/17/12 10:20:19 +0900 takasaki-kenji-no-MacBook-Pro.local (1421)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 10:20:19 +0900 takasaki-kenji-no-MacBook-Pro.local (1421)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1421
+[05/17/12 10:20:19 +0900 takasaki-kenji-no-MacBook-Pro.local (1421)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 11:13:36 +0900 takasaki-kenji-no-MacBook-Pro.local (4050)] INFO : Dispatcher: thin
+[05/17/12 11:13:36 +0900 takasaki-kenji-no-MacBook-Pro.local (4050)] INFO : Application: development
+[05/17/12 11:13:36 +0900 takasaki-kenji-no-MacBook-Pro.local (4050)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 11:13:36 +0900 takasaki-kenji-no-MacBook-Pro.local (4050)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4050
+[05/17/12 11:13:36 +0900 takasaki-kenji-no-MacBook-Pro.local (4050)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 11:13:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4065)] INFO : Dispatcher: thin
+[05/17/12 11:13:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4065)] INFO : Application: development
+[05/17/12 11:13:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4065)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 11:13:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4065)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4065
+[05/17/12 11:13:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4065)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (435)] INFO : Dispatcher: thin
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (474)] INFO : Dispatcher: thin
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (474)] INFO : Application: development
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (474)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (474)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 474
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (474)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (435)] INFO : Application: development
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (435)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (435)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 435
+[05/17/12 11:28:40 +0900 takasaki-kenji-no-MacBook-Pro.local (435)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 12:21:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3348)] INFO : Dispatcher: thin
+[05/17/12 12:21:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3348)] INFO : Application: development
+[05/17/12 12:21:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3348)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 12:21:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3348)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3348
+[05/17/12 12:21:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3348)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 12:22:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3387)] INFO : Dispatcher: thin
+[05/17/12 12:22:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3387)] INFO : Application: development
+[05/17/12 12:22:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3387)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 12:22:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3387)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3387
+[05/17/12 12:22:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3387)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 14:54:04 +0900 takasaki-kenji-no-MacBook-Pro.local (3086)] INFO : Dispatcher: thin
+[05/17/12 14:54:04 +0900 takasaki-kenji-no-MacBook-Pro.local (3086)] INFO : Application: development
+[05/17/12 14:54:04 +0900 takasaki-kenji-no-MacBook-Pro.local (3086)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 14:54:04 +0900 takasaki-kenji-no-MacBook-Pro.local (3086)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3086
+[05/17/12 14:54:04 +0900 takasaki-kenji-no-MacBook-Pro.local (3086)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 14:54:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3105)] INFO : Dispatcher: thin
+[05/17/12 14:54:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3105)] INFO : Application: development
+[05/17/12 14:54:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3105)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 14:54:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3105)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3105
+[05/17/12 14:54:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3105)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 15:07:25 +0900 takasaki-kenji-no-MacBook-Pro.local (3970)] INFO : Dispatcher: thin
+[05/17/12 15:07:25 +0900 takasaki-kenji-no-MacBook-Pro.local (3970)] INFO : Application: production
+[05/17/12 15:07:25 +0900 takasaki-kenji-no-MacBook-Pro.local (3970)] ERROR : Invalid license key: 
+[05/17/12 15:07:25 +0900 takasaki-kenji-no-MacBook-Pro.local (3970)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3970
+[05/17/12 15:07:25 +0900 takasaki-kenji-no-MacBook-Pro.local (3970)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 15:08:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] INFO : Dispatcher: thin
+[05/17/12 15:08:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] INFO : Application: production
+[05/17/12 15:08:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] ERROR : Invalid license key: 
+[05/17/12 15:08:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4004
+[05/17/12 15:08:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 15:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] INFO : Dispatcher: thin
+[05/17/12 15:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] INFO : Application: production
+[05/17/12 15:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] ERROR : Invalid license key: 
+[05/17/12 15:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4004
+[05/17/12 15:08:57 +0900 takasaki-kenji-no-MacBook-Pro.local (4004)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 15:47:15 +0900 takasaki-kenji-no-MacBook-Pro.local (5966)] INFO : Dispatcher: thin
+[05/17/12 15:47:15 +0900 takasaki-kenji-no-MacBook-Pro.local (5966)] INFO : Application: development
+[05/17/12 15:47:15 +0900 takasaki-kenji-no-MacBook-Pro.local (5966)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 15:47:15 +0900 takasaki-kenji-no-MacBook-Pro.local (5966)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5966
+[05/17/12 15:47:15 +0900 takasaki-kenji-no-MacBook-Pro.local (5966)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 15:47:40 +0900 takasaki-kenji-no-MacBook-Pro.local (5990)] INFO : Dispatcher: thin
+[05/17/12 15:47:40 +0900 takasaki-kenji-no-MacBook-Pro.local (5990)] INFO : Application: development
+[05/17/12 15:47:40 +0900 takasaki-kenji-no-MacBook-Pro.local (5990)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 15:47:40 +0900 takasaki-kenji-no-MacBook-Pro.local (5990)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5990
+[05/17/12 15:47:40 +0900 takasaki-kenji-no-MacBook-Pro.local (5990)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 19:18:40 +0900 Takasaki-Kenji-no-iMac.local (4725)] INFO : Dispatcher: thin
+[05/17/12 19:18:40 +0900 Takasaki-Kenji-no-iMac.local (4725)] INFO : Application: development
+[05/17/12 19:18:40 +0900 Takasaki-Kenji-no-iMac.local (4725)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 19:18:40 +0900 Takasaki-Kenji-no-iMac.local (4725)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4725
+[05/17/12 19:18:40 +0900 Takasaki-Kenji-no-iMac.local (4725)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 19:21:10 +0900 Takasaki-Kenji-no-iMac.local (4827)] INFO : Dispatcher: thin
+[05/17/12 19:21:10 +0900 Takasaki-Kenji-no-iMac.local (4827)] INFO : Application: development
+[05/17/12 19:21:10 +0900 Takasaki-Kenji-no-iMac.local (4827)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 19:21:10 +0900 Takasaki-Kenji-no-iMac.local (4827)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4827
+[05/17/12 19:21:10 +0900 Takasaki-Kenji-no-iMac.local (4827)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/17/12 22:08:12 +0900 takasaki-kenji-no-MacBook-Pro.local (864)] INFO : Dispatcher: thin
+[05/17/12 22:08:12 +0900 takasaki-kenji-no-MacBook-Pro.local (864)] INFO : Application: development
+[05/17/12 22:08:12 +0900 takasaki-kenji-no-MacBook-Pro.local (864)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/17/12 22:08:12 +0900 takasaki-kenji-no-MacBook-Pro.local (864)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 864
+[05/17/12 22:08:12 +0900 takasaki-kenji-no-MacBook-Pro.local (864)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 10:04:06 +0900 takasaki-kenji-no-MacBook-Pro.local (783)] INFO : Dispatcher: thin
+[05/18/12 10:04:06 +0900 takasaki-kenji-no-MacBook-Pro.local (783)] INFO : Application: development
+[05/18/12 10:04:06 +0900 takasaki-kenji-no-MacBook-Pro.local (783)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 10:04:06 +0900 takasaki-kenji-no-MacBook-Pro.local (783)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 783
+[05/18/12 10:04:06 +0900 takasaki-kenji-no-MacBook-Pro.local (783)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 10:04:28 +0900 takasaki-kenji-no-MacBook-Pro.local (804)] INFO : Dispatcher: thin
+[05/18/12 10:04:28 +0900 takasaki-kenji-no-MacBook-Pro.local (804)] INFO : Application: development
+[05/18/12 10:04:28 +0900 takasaki-kenji-no-MacBook-Pro.local (804)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 10:04:28 +0900 takasaki-kenji-no-MacBook-Pro.local (804)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 804
+[05/18/12 10:04:28 +0900 takasaki-kenji-no-MacBook-Pro.local (804)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 10:32:58 +0900 takasaki-kenji-no-MacBook-Pro.local (1424)] INFO : Dispatcher: thin
+[05/18/12 10:32:58 +0900 takasaki-kenji-no-MacBook-Pro.local (1424)] INFO : Application: development
+[05/18/12 10:32:58 +0900 takasaki-kenji-no-MacBook-Pro.local (1424)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 10:32:58 +0900 takasaki-kenji-no-MacBook-Pro.local (1424)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1424
+[05/18/12 10:32:58 +0900 takasaki-kenji-no-MacBook-Pro.local (1424)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 11:04:35 +0900 takasaki-kenji-no-MacBook-Pro.local (2681)] INFO : Dispatcher: thin
+[05/18/12 11:04:35 +0900 takasaki-kenji-no-MacBook-Pro.local (2681)] INFO : Application: development
+[05/18/12 11:04:35 +0900 takasaki-kenji-no-MacBook-Pro.local (2681)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 11:04:35 +0900 takasaki-kenji-no-MacBook-Pro.local (2681)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2681
+[05/18/12 11:04:35 +0900 takasaki-kenji-no-MacBook-Pro.local (2681)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 11:05:17 +0900 takasaki-kenji-no-MacBook-Pro.local (2708)] INFO : Dispatcher: thin
+[05/18/12 11:05:17 +0900 takasaki-kenji-no-MacBook-Pro.local (2708)] INFO : Application: development
+[05/18/12 11:05:17 +0900 takasaki-kenji-no-MacBook-Pro.local (2708)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 11:05:17 +0900 takasaki-kenji-no-MacBook-Pro.local (2708)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2708
+[05/18/12 11:05:17 +0900 takasaki-kenji-no-MacBook-Pro.local (2708)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 11:39:14 +0900 takasaki-kenji-no-MacBook-Pro.local (4870)] INFO : Dispatcher: thin
+[05/18/12 11:39:14 +0900 takasaki-kenji-no-MacBook-Pro.local (4870)] INFO : Application: development
+[05/18/12 11:39:14 +0900 takasaki-kenji-no-MacBook-Pro.local (4870)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 11:39:14 +0900 takasaki-kenji-no-MacBook-Pro.local (4870)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4870
+[05/18/12 11:39:14 +0900 takasaki-kenji-no-MacBook-Pro.local (4870)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 11:39:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4881)] INFO : Dispatcher: thin
+[05/18/12 11:39:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4881)] INFO : Application: development
+[05/18/12 11:39:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4881)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 11:39:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4881)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4881
+[05/18/12 11:39:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4881)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 15:54:10 +0900 takasaki-kenji-no-MacBook-Pro.local (5700)] INFO : Dispatcher: thin
+[05/18/12 15:54:10 +0900 takasaki-kenji-no-MacBook-Pro.local (5700)] INFO : Application: development
+[05/18/12 15:54:10 +0900 takasaki-kenji-no-MacBook-Pro.local (5700)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 15:54:10 +0900 takasaki-kenji-no-MacBook-Pro.local (5700)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5700
+[05/18/12 15:54:10 +0900 takasaki-kenji-no-MacBook-Pro.local (5700)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 15:54:47 +0900 takasaki-kenji-no-MacBook-Pro.local (5722)] INFO : Dispatcher: thin
+[05/18/12 15:54:47 +0900 takasaki-kenji-no-MacBook-Pro.local (5722)] INFO : Application: development
+[05/18/12 15:54:47 +0900 takasaki-kenji-no-MacBook-Pro.local (5722)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 15:54:47 +0900 takasaki-kenji-no-MacBook-Pro.local (5722)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5722
+[05/18/12 15:54:47 +0900 takasaki-kenji-no-MacBook-Pro.local (5722)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 15:55:33 +0900 takasaki-kenji-no-MacBook-Pro.local (5758)] INFO : Dispatcher: thin
+[05/18/12 15:55:33 +0900 takasaki-kenji-no-MacBook-Pro.local (5758)] INFO : Application: development
+[05/18/12 15:55:33 +0900 takasaki-kenji-no-MacBook-Pro.local (5758)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 15:55:33 +0900 takasaki-kenji-no-MacBook-Pro.local (5758)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5758
+[05/18/12 15:55:33 +0900 takasaki-kenji-no-MacBook-Pro.local (5758)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 15:56:20 +0900 takasaki-kenji-no-MacBook-Pro.local (5803)] INFO : Dispatcher: thin
+[05/18/12 15:56:20 +0900 takasaki-kenji-no-MacBook-Pro.local (5803)] INFO : Application: development
+[05/18/12 15:56:20 +0900 takasaki-kenji-no-MacBook-Pro.local (5803)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 15:56:20 +0900 takasaki-kenji-no-MacBook-Pro.local (5803)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 5803
+[05/18/12 15:56:20 +0900 takasaki-kenji-no-MacBook-Pro.local (5803)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 16:03:01 +0900 takasaki-kenji-no-MacBook-Pro.local (6017)] INFO : Dispatcher: thin
+[05/18/12 16:03:01 +0900 takasaki-kenji-no-MacBook-Pro.local (6017)] INFO : Application: development
+[05/18/12 16:03:01 +0900 takasaki-kenji-no-MacBook-Pro.local (6017)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 16:03:01 +0900 takasaki-kenji-no-MacBook-Pro.local (6017)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6017
+[05/18/12 16:03:01 +0900 takasaki-kenji-no-MacBook-Pro.local (6017)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 16:04:55 +0900 takasaki-kenji-no-MacBook-Pro.local (6058)] INFO : Dispatcher: thin
+[05/18/12 16:04:55 +0900 takasaki-kenji-no-MacBook-Pro.local (6058)] INFO : Application: development
+[05/18/12 16:04:55 +0900 takasaki-kenji-no-MacBook-Pro.local (6058)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 16:04:55 +0900 takasaki-kenji-no-MacBook-Pro.local (6058)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6058
+[05/18/12 16:04:55 +0900 takasaki-kenji-no-MacBook-Pro.local (6058)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 16:08:04 +0900 takasaki-kenji-no-MacBook-Pro.local (6157)] INFO : Dispatcher: thin
+[05/18/12 16:08:04 +0900 takasaki-kenji-no-MacBook-Pro.local (6157)] INFO : Application: development
+[05/18/12 16:08:04 +0900 takasaki-kenji-no-MacBook-Pro.local (6157)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 16:08:04 +0900 takasaki-kenji-no-MacBook-Pro.local (6157)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 6157
+[05/18/12 16:08:04 +0900 takasaki-kenji-no-MacBook-Pro.local (6157)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 20:56:25 +0900 Takasaki-Kenji-no-iMac.local (1700)] INFO : Dispatcher: thin
+[05/18/12 20:56:25 +0900 Takasaki-Kenji-no-iMac.local (1700)] INFO : Application: development
+[05/18/12 20:56:25 +0900 Takasaki-Kenji-no-iMac.local (1700)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 20:56:25 +0900 Takasaki-Kenji-no-iMac.local (1700)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1700
+[05/18/12 20:56:25 +0900 Takasaki-Kenji-no-iMac.local (1700)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:02:47 +0900 Takasaki-Kenji-no-iMac.local (1919)] INFO : Dispatcher: thin
+[05/18/12 21:02:47 +0900 Takasaki-Kenji-no-iMac.local (1919)] INFO : Application: development
+[05/18/12 21:02:47 +0900 Takasaki-Kenji-no-iMac.local (1919)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:02:47 +0900 Takasaki-Kenji-no-iMac.local (1919)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1919
+[05/18/12 21:02:47 +0900 Takasaki-Kenji-no-iMac.local (1919)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:08:40 +0900 Takasaki-Kenji-no-iMac.local (2142)] INFO : Dispatcher: thin
+[05/18/12 21:08:40 +0900 Takasaki-Kenji-no-iMac.local (2142)] INFO : Application: development
+[05/18/12 21:08:40 +0900 Takasaki-Kenji-no-iMac.local (2142)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:08:40 +0900 Takasaki-Kenji-no-iMac.local (2142)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2142
+[05/18/12 21:08:40 +0900 Takasaki-Kenji-no-iMac.local (2142)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:15:54 +0900 Takasaki-Kenji-no-iMac.local (2478)] INFO : Dispatcher: thin
+[05/18/12 21:15:54 +0900 Takasaki-Kenji-no-iMac.local (2478)] INFO : Application: development
+[05/18/12 21:15:54 +0900 Takasaki-Kenji-no-iMac.local (2478)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:15:54 +0900 Takasaki-Kenji-no-iMac.local (2478)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2478
+[05/18/12 21:15:54 +0900 Takasaki-Kenji-no-iMac.local (2478)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:17:17 +0900 Takasaki-Kenji-no-iMac.local (2550)] INFO : Dispatcher: thin
+[05/18/12 21:17:17 +0900 Takasaki-Kenji-no-iMac.local (2550)] INFO : Application: development
+[05/18/12 21:17:17 +0900 Takasaki-Kenji-no-iMac.local (2550)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:17:17 +0900 Takasaki-Kenji-no-iMac.local (2550)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2550
+[05/18/12 21:17:17 +0900 Takasaki-Kenji-no-iMac.local (2550)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:17:36 +0900 Takasaki-Kenji-no-iMac.local (2571)] INFO : Dispatcher: thin
+[05/18/12 21:17:36 +0900 Takasaki-Kenji-no-iMac.local (2571)] INFO : Application: development
+[05/18/12 21:17:36 +0900 Takasaki-Kenji-no-iMac.local (2571)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:17:36 +0900 Takasaki-Kenji-no-iMac.local (2571)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2571
+[05/18/12 21:17:36 +0900 Takasaki-Kenji-no-iMac.local (2571)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:20:16 +0900 Takasaki-Kenji-no-iMac.local (2725)] INFO : Dispatcher: thin
+[05/18/12 21:20:16 +0900 Takasaki-Kenji-no-iMac.local (2725)] INFO : Application: development
+[05/18/12 21:20:16 +0900 Takasaki-Kenji-no-iMac.local (2725)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:20:16 +0900 Takasaki-Kenji-no-iMac.local (2725)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2725
+[05/18/12 21:20:16 +0900 Takasaki-Kenji-no-iMac.local (2725)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:20:29 +0900 Takasaki-Kenji-no-iMac.local (2742)] INFO : Dispatcher: thin
+[05/18/12 21:20:29 +0900 Takasaki-Kenji-no-iMac.local (2742)] INFO : Application: development
+[05/18/12 21:20:29 +0900 Takasaki-Kenji-no-iMac.local (2742)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:20:29 +0900 Takasaki-Kenji-no-iMac.local (2742)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2742
+[05/18/12 21:20:29 +0900 Takasaki-Kenji-no-iMac.local (2742)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:30:30 +0900 Takasaki-Kenji-no-iMac.local (3718)] INFO : Dispatcher: thin
+[05/18/12 21:30:30 +0900 Takasaki-Kenji-no-iMac.local (3718)] INFO : Application: development
+[05/18/12 21:30:30 +0900 Takasaki-Kenji-no-iMac.local (3718)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:30:30 +0900 Takasaki-Kenji-no-iMac.local (3718)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3718
+[05/18/12 21:30:30 +0900 Takasaki-Kenji-no-iMac.local (3718)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:41:44 +0900 Takasaki-Kenji-no-iMac.local (4245)] INFO : Dispatcher: thin
+[05/18/12 21:41:44 +0900 Takasaki-Kenji-no-iMac.local (4245)] INFO : Application: development
+[05/18/12 21:41:44 +0900 Takasaki-Kenji-no-iMac.local (4245)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:41:44 +0900 Takasaki-Kenji-no-iMac.local (4245)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4245
+[05/18/12 21:41:44 +0900 Takasaki-Kenji-no-iMac.local (4245)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/18/12 21:41:54 +0900 Takasaki-Kenji-no-iMac.local (4262)] INFO : Dispatcher: thin
+[05/18/12 21:41:54 +0900 Takasaki-Kenji-no-iMac.local (4262)] INFO : Application: development
+[05/18/12 21:41:54 +0900 Takasaki-Kenji-no-iMac.local (4262)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/18/12 21:41:54 +0900 Takasaki-Kenji-no-iMac.local (4262)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4262
+[05/18/12 21:41:54 +0900 Takasaki-Kenji-no-iMac.local (4262)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 11:12:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3742)] INFO : Dispatcher: thin
+[05/21/12 11:12:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3742)] INFO : Application: development
+[05/21/12 11:12:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3742)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 11:12:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3742)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3742
+[05/21/12 11:12:33 +0900 takasaki-kenji-no-MacBook-Pro.local (3742)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 11:13:54 +0900 takasaki-kenji-no-MacBook-Pro.local (3775)] INFO : Dispatcher: thin
+[05/21/12 11:13:54 +0900 takasaki-kenji-no-MacBook-Pro.local (3775)] INFO : Application: development
+[05/21/12 11:13:54 +0900 takasaki-kenji-no-MacBook-Pro.local (3775)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 11:13:54 +0900 takasaki-kenji-no-MacBook-Pro.local (3775)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3775
+[05/21/12 11:13:54 +0900 takasaki-kenji-no-MacBook-Pro.local (3775)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (927)] INFO : Dispatcher: thin
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (927)] INFO : Application: development
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (927)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (927)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 927
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (927)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (948)] INFO : Dispatcher: thin
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (948)] INFO : Application: development
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (948)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (948)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 948
+[05/21/12 12:55:11 +0900 Takasaki-Kenji-no-iMac.local (948)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 13:39:26 +0900 takasaki-kenji-no-MacBook-Pro.local (836)] INFO : Dispatcher: thin
+[05/21/12 13:39:26 +0900 takasaki-kenji-no-MacBook-Pro.local (836)] INFO : Application: development
+[05/21/12 13:39:26 +0900 takasaki-kenji-no-MacBook-Pro.local (836)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 13:39:26 +0900 takasaki-kenji-no-MacBook-Pro.local (836)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 836
+[05/21/12 13:39:26 +0900 takasaki-kenji-no-MacBook-Pro.local (836)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 13:39:52 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] INFO : Dispatcher: thin
+[05/21/12 13:39:52 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] INFO : Application: development
+[05/21/12 13:39:52 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 13:39:52 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 855
+[05/21/12 13:39:52 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 16:20:25 +0900 takasaki-kenji-no-MacBook-Pro.local (1205)] INFO : Dispatcher: thin
+[05/21/12 16:20:25 +0900 takasaki-kenji-no-MacBook-Pro.local (1205)] INFO : Application: development
+[05/21/12 16:20:25 +0900 takasaki-kenji-no-MacBook-Pro.local (1205)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 16:20:25 +0900 takasaki-kenji-no-MacBook-Pro.local (1205)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 1205
+[05/21/12 16:20:25 +0900 takasaki-kenji-no-MacBook-Pro.local (1205)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 16:40:34 +0900 takasaki-kenji-no-MacBook-Pro.local (2403)] INFO : Dispatcher: thin
+[05/21/12 16:40:34 +0900 takasaki-kenji-no-MacBook-Pro.local (2403)] INFO : Application: development
+[05/21/12 16:40:34 +0900 takasaki-kenji-no-MacBook-Pro.local (2403)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 16:40:34 +0900 takasaki-kenji-no-MacBook-Pro.local (2403)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2403
+[05/21/12 16:40:34 +0900 takasaki-kenji-no-MacBook-Pro.local (2403)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 16:40:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2419)] INFO : Dispatcher: thin
+[05/21/12 16:40:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2419)] INFO : Application: development
+[05/21/12 16:40:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2419)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 16:40:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2419)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2419
+[05/21/12 16:40:58 +0900 takasaki-kenji-no-MacBook-Pro.local (2419)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 19:01:00 +0900 Takasaki-Kenji-no-iMac.local (18395)] INFO : Dispatcher: thin
+[05/21/12 19:01:00 +0900 Takasaki-Kenji-no-iMac.local (18395)] INFO : Application: development
+[05/21/12 19:01:00 +0900 Takasaki-Kenji-no-iMac.local (18395)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 19:01:00 +0900 Takasaki-Kenji-no-iMac.local (18395)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 18395
+[05/21/12 19:01:00 +0900 Takasaki-Kenji-no-iMac.local (18395)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/21/12 19:01:19 +0900 Takasaki-Kenji-no-iMac.local (18422)] INFO : Dispatcher: thin
+[05/21/12 19:01:19 +0900 Takasaki-Kenji-no-iMac.local (18422)] INFO : Application: development
+[05/21/12 19:01:19 +0900 Takasaki-Kenji-no-iMac.local (18422)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/21/12 19:01:19 +0900 Takasaki-Kenji-no-iMac.local (18422)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 18422
+[05/21/12 19:01:19 +0900 Takasaki-Kenji-no-iMac.local (18422)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 11:29:41 +0900 takasaki-kenji-no-MacBook-Pro.local (4916)] INFO : Dispatcher: thin
+[05/23/12 11:29:41 +0900 takasaki-kenji-no-MacBook-Pro.local (4916)] INFO : Application: development
+[05/23/12 11:29:41 +0900 takasaki-kenji-no-MacBook-Pro.local (4916)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 11:29:41 +0900 takasaki-kenji-no-MacBook-Pro.local (4916)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4916
+[05/23/12 11:29:41 +0900 takasaki-kenji-no-MacBook-Pro.local (4916)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 11:30:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4929)] INFO : Dispatcher: thin
+[05/23/12 11:30:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4929)] INFO : Application: development
+[05/23/12 11:30:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4929)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 11:30:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4929)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4929
+[05/23/12 11:30:07 +0900 takasaki-kenji-no-MacBook-Pro.local (4929)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 14:56:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3402)] INFO : Dispatcher: thin
+[05/23/12 14:56:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3402)] INFO : Application: development
+[05/23/12 14:56:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3402)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 14:56:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3402)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3402
+[05/23/12 14:56:13 +0900 takasaki-kenji-no-MacBook-Pro.local (3402)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 15:00:47 +0900 takasaki-kenji-no-MacBook-Pro.local (3541)] INFO : Dispatcher: thin
+[05/23/12 15:00:47 +0900 takasaki-kenji-no-MacBook-Pro.local (3541)] INFO : Application: development
+[05/23/12 15:00:47 +0900 takasaki-kenji-no-MacBook-Pro.local (3541)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 15:00:47 +0900 takasaki-kenji-no-MacBook-Pro.local (3541)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3541
+[05/23/12 15:00:47 +0900 takasaki-kenji-no-MacBook-Pro.local (3541)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 15:01:32 +0900 takasaki-kenji-no-MacBook-Pro.local (3578)] INFO : Dispatcher: thin
+[05/23/12 15:01:32 +0900 takasaki-kenji-no-MacBook-Pro.local (3578)] INFO : Application: development
+[05/23/12 15:01:32 +0900 takasaki-kenji-no-MacBook-Pro.local (3578)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 15:01:32 +0900 takasaki-kenji-no-MacBook-Pro.local (3578)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3578
+[05/23/12 15:01:32 +0900 takasaki-kenji-no-MacBook-Pro.local (3578)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 15:10:10 +0900 takasaki-kenji-no-MacBook-Pro.local (3830)] INFO : Dispatcher: thin
+[05/23/12 15:10:10 +0900 takasaki-kenji-no-MacBook-Pro.local (3830)] INFO : Application: development
+[05/23/12 15:10:10 +0900 takasaki-kenji-no-MacBook-Pro.local (3830)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 15:10:10 +0900 takasaki-kenji-no-MacBook-Pro.local (3830)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3830
+[05/23/12 15:10:10 +0900 takasaki-kenji-no-MacBook-Pro.local (3830)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 15:10:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3841)] INFO : Dispatcher: thin
+[05/23/12 15:10:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3841)] INFO : Application: development
+[05/23/12 15:10:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3841)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 15:10:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3841)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3841
+[05/23/12 15:10:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3841)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 15:31:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4884)] INFO : Dispatcher: thin
+[05/23/12 15:31:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4884)] INFO : Application: development
+[05/23/12 15:31:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4884)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 15:31:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4884)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4884
+[05/23/12 15:31:34 +0900 takasaki-kenji-no-MacBook-Pro.local (4884)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 15:31:55 +0900 takasaki-kenji-no-MacBook-Pro.local (4902)] INFO : Dispatcher: thin
+[05/23/12 15:31:55 +0900 takasaki-kenji-no-MacBook-Pro.local (4902)] INFO : Application: development
+[05/23/12 15:31:55 +0900 takasaki-kenji-no-MacBook-Pro.local (4902)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 15:31:55 +0900 takasaki-kenji-no-MacBook-Pro.local (4902)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4902
+[05/23/12 15:31:55 +0900 takasaki-kenji-no-MacBook-Pro.local (4902)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 17:42:50 +0900 Takasaki-Kenji-no-iMac.local (12025)] INFO : Dispatcher: thin
+[05/23/12 17:42:50 +0900 Takasaki-Kenji-no-iMac.local (12025)] INFO : Application: development
+[05/23/12 17:42:50 +0900 Takasaki-Kenji-no-iMac.local (12025)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 17:42:50 +0900 Takasaki-Kenji-no-iMac.local (12025)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12025
+[05/23/12 17:42:50 +0900 Takasaki-Kenji-no-iMac.local (12025)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 17:43:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] INFO : Dispatcher: thin
+[05/23/12 17:43:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] INFO : Application: development
+[05/23/12 17:43:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 17:43:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12057
+[05/23/12 17:43:02 +0900 Takasaki-Kenji-no-iMac.local (12057)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/23/12 17:47:06 +0900 Takasaki-Kenji-no-iMac.local (12242)] INFO : Dispatcher: thin
+[05/23/12 17:47:06 +0900 Takasaki-Kenji-no-iMac.local (12242)] INFO : Application: development
+[05/23/12 17:47:06 +0900 Takasaki-Kenji-no-iMac.local (12242)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/23/12 17:47:06 +0900 Takasaki-Kenji-no-iMac.local (12242)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 12242
+[05/23/12 17:47:06 +0900 Takasaki-Kenji-no-iMac.local (12242)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (630)] INFO : Dispatcher: thin
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (565)] INFO : Dispatcher: thin
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (565)] INFO : Application: development
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (630)] INFO : Application: development
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (565)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (630)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (565)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 565
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (630)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 630
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (565)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/25/12 10:48:19 +0900 takasaki-kenji-no-MacBook-Pro.local (630)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/28/12 11:18:30 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] INFO : Dispatcher: thin
+[05/28/12 11:18:30 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] INFO : Application: production
+[05/28/12 11:18:30 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] ERROR : Invalid license key: 
+[05/28/12 11:18:30 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2878
+[05/28/12 11:18:30 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/28/12 11:19:24 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] INFO : Dispatcher: thin
+[05/28/12 11:19:24 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] INFO : Application: production
+[05/28/12 11:19:24 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] ERROR : Invalid license key: 
+[05/28/12 11:19:24 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 2878
+[05/28/12 11:19:24 +0900 takasaki-kenji-no-MacBook-Pro.local (2878)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/28/12 11:30:43 +0900 takasaki-kenji-no-MacBook-Pro.local (3853)] INFO : Dispatcher: thin
+[05/28/12 11:30:43 +0900 takasaki-kenji-no-MacBook-Pro.local (3853)] INFO : Application: development
+[05/28/12 11:30:43 +0900 takasaki-kenji-no-MacBook-Pro.local (3853)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/28/12 11:30:43 +0900 takasaki-kenji-no-MacBook-Pro.local (3853)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3853
+[05/28/12 11:30:43 +0900 takasaki-kenji-no-MacBook-Pro.local (3853)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/28/12 11:31:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3903)] INFO : Dispatcher: thin
+[05/28/12 11:31:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3903)] INFO : Application: development
+[05/28/12 11:31:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3903)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/28/12 11:31:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3903)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 3903
+[05/28/12 11:31:30 +0900 takasaki-kenji-no-MacBook-Pro.local (3903)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/28/12 11:37:13 +0900 takasaki-kenji-no-MacBook-Pro.local (4195)] INFO : Dispatcher: thin
+[05/28/12 11:37:13 +0900 takasaki-kenji-no-MacBook-Pro.local (4195)] INFO : Application: production
+[05/28/12 11:37:13 +0900 takasaki-kenji-no-MacBook-Pro.local (4195)] ERROR : Invalid license key: 
+[05/28/12 11:37:13 +0900 takasaki-kenji-no-MacBook-Pro.local (4195)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4195
+[05/28/12 11:37:13 +0900 takasaki-kenji-no-MacBook-Pro.local (4195)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/28/12 11:38:26 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] INFO : Dispatcher: thin
+[05/28/12 11:38:26 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] INFO : Application: production
+[05/28/12 11:38:26 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] ERROR : Invalid license key: 
+[05/28/12 11:38:26 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4225
+[05/28/12 11:38:26 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/28/12 11:39:24 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] INFO : Dispatcher: thin
+[05/28/12 11:39:24 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] INFO : Application: production
+[05/28/12 11:39:24 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] ERROR : Invalid license key: 
+[05/28/12 11:39:24 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 4225
+[05/28/12 11:39:24 +0900 takasaki-kenji-no-MacBook-Pro.local (4225)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/28/12 13:22:35 +0900 takasaki-kenji-no-MacBook-Pro.local (7523)] INFO : Dispatcher: thin
+[05/28/12 13:22:35 +0900 takasaki-kenji-no-MacBook-Pro.local (7523)] INFO : Application: development
+[05/28/12 13:22:35 +0900 takasaki-kenji-no-MacBook-Pro.local (7523)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/28/12 13:22:35 +0900 takasaki-kenji-no-MacBook-Pro.local (7523)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 7523
+[05/28/12 13:22:35 +0900 takasaki-kenji-no-MacBook-Pro.local (7523)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[05/30/12 11:01:22 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] INFO : Dispatcher: thin
+[05/30/12 11:01:22 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] INFO : Application: development
+[05/30/12 11:01:22 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[05/30/12 11:01:22 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 855
+[05/30/12 11:01:22 +0900 takasaki-kenji-no-MacBook-Pro.local (855)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 08:54:07 +0900 Takasaki-Kenji-no-iMac.local (20898)] INFO : Dispatcher: thin
+[06/01/12 08:54:07 +0900 Takasaki-Kenji-no-iMac.local (20898)] INFO : Application: production
+[06/01/12 08:54:07 +0900 Takasaki-Kenji-no-iMac.local (20898)] ERROR : Invalid license key: 
+[06/01/12 08:54:07 +0900 Takasaki-Kenji-no-iMac.local (20898)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 20898
+[06/01/12 08:54:07 +0900 Takasaki-Kenji-no-iMac.local (20898)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 08:55:09 +0900 Takasaki-Kenji-no-iMac.local (20959)] INFO : Dispatcher: thin
+[06/01/12 08:55:09 +0900 Takasaki-Kenji-no-iMac.local (20959)] INFO : Application: production
+[06/01/12 08:55:09 +0900 Takasaki-Kenji-no-iMac.local (20959)] ERROR : Invalid license key: 
+[06/01/12 08:55:09 +0900 Takasaki-Kenji-no-iMac.local (20959)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 20959
+[06/01/12 08:55:09 +0900 Takasaki-Kenji-no-iMac.local (20959)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 08:55:33 +0900 Takasaki-Kenji-no-iMac.local (20959)] INFO : Dispatcher: thin
+[06/01/12 08:55:33 +0900 Takasaki-Kenji-no-iMac.local (20959)] INFO : Application: production
+[06/01/12 08:55:33 +0900 Takasaki-Kenji-no-iMac.local (20959)] ERROR : Invalid license key: 
+[06/01/12 08:55:33 +0900 Takasaki-Kenji-no-iMac.local (20959)] INFO : New Relic Ruby Agent 3.3.4.1 Initialized: pid = 20959
+[06/01/12 08:55:33 +0900 Takasaki-Kenji-no-iMac.local (20959)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 09:31:44 +0900 Takasaki-Kenji-no-iMac.local (23640)] INFO : Dispatcher: thin
+[06/01/12 09:31:44 +0900 Takasaki-Kenji-no-iMac.local (23640)] INFO : Application: development
+[06/01/12 09:31:44 +0900 Takasaki-Kenji-no-iMac.local (23640)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 09:31:44 +0900 Takasaki-Kenji-no-iMac.local (23640)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 23640
+[06/01/12 09:31:44 +0900 Takasaki-Kenji-no-iMac.local (23640)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 11:55:23 +0900 Takasaki-Kenji-no-iMac.local (30873)] INFO : Dispatcher: thin
+[06/01/12 11:55:23 +0900 Takasaki-Kenji-no-iMac.local (30873)] INFO : Application: production
+[06/01/12 11:55:23 +0900 Takasaki-Kenji-no-iMac.local (30873)] ERROR : Invalid license key: 
+[06/01/12 11:55:23 +0900 Takasaki-Kenji-no-iMac.local (30873)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 30873
+[06/01/12 11:55:23 +0900 Takasaki-Kenji-no-iMac.local (30873)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 11:55:45 +0900 Takasaki-Kenji-no-iMac.local (30873)] INFO : Dispatcher: thin
+[06/01/12 11:55:45 +0900 Takasaki-Kenji-no-iMac.local (30873)] INFO : Application: production
+[06/01/12 11:55:45 +0900 Takasaki-Kenji-no-iMac.local (30873)] ERROR : Invalid license key: 
+[06/01/12 11:55:45 +0900 Takasaki-Kenji-no-iMac.local (30873)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 30873
+[06/01/12 11:55:45 +0900 Takasaki-Kenji-no-iMac.local (30873)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 11:55:47 +0900 Takasaki-Kenji-no-iMac.local (30986)] INFO : Dispatcher: thin
+[06/01/12 11:55:47 +0900 Takasaki-Kenji-no-iMac.local (30986)] INFO : Application: development
+[06/01/12 11:55:47 +0900 Takasaki-Kenji-no-iMac.local (30986)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 11:55:47 +0900 Takasaki-Kenji-no-iMac.local (30986)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 30986
+[06/01/12 11:55:47 +0900 Takasaki-Kenji-no-iMac.local (30986)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 11:56:53 +0900 Takasaki-Kenji-no-iMac.local (31066)] INFO : Dispatcher: thin
+[06/01/12 11:56:53 +0900 Takasaki-Kenji-no-iMac.local (31066)] INFO : Application: development
+[06/01/12 11:56:53 +0900 Takasaki-Kenji-no-iMac.local (31066)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 11:56:53 +0900 Takasaki-Kenji-no-iMac.local (31066)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 31066
+[06/01/12 11:56:53 +0900 Takasaki-Kenji-no-iMac.local (31066)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 14:59:10 +0900 Takasaki-Kenji-no-iMac.local (41426)] INFO : Dispatcher: thin
+[06/01/12 14:59:10 +0900 Takasaki-Kenji-no-iMac.local (41426)] INFO : Application: development
+[06/01/12 14:59:10 +0900 Takasaki-Kenji-no-iMac.local (41426)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 14:59:10 +0900 Takasaki-Kenji-no-iMac.local (41426)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 41426
+[06/01/12 14:59:10 +0900 Takasaki-Kenji-no-iMac.local (41426)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 14:59:21 +0900 Takasaki-Kenji-no-iMac.local (41441)] INFO : Dispatcher: thin
+[06/01/12 14:59:21 +0900 Takasaki-Kenji-no-iMac.local (41441)] INFO : Application: development
+[06/01/12 14:59:21 +0900 Takasaki-Kenji-no-iMac.local (41441)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 14:59:21 +0900 Takasaki-Kenji-no-iMac.local (41441)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 41441
+[06/01/12 14:59:21 +0900 Takasaki-Kenji-no-iMac.local (41441)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 16:03:18 +0900 Takasaki-Kenji-no-iMac.local (44424)] INFO : Dispatcher: thin
+[06/01/12 16:03:18 +0900 Takasaki-Kenji-no-iMac.local (44424)] INFO : Application: development
+[06/01/12 16:03:18 +0900 Takasaki-Kenji-no-iMac.local (44424)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 16:03:18 +0900 Takasaki-Kenji-no-iMac.local (44424)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 44424
+[06/01/12 16:03:18 +0900 Takasaki-Kenji-no-iMac.local (44424)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 16:03:28 +0900 Takasaki-Kenji-no-iMac.local (44438)] INFO : Dispatcher: thin
+[06/01/12 16:03:28 +0900 Takasaki-Kenji-no-iMac.local (44438)] INFO : Application: development
+[06/01/12 16:03:28 +0900 Takasaki-Kenji-no-iMac.local (44438)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 16:03:28 +0900 Takasaki-Kenji-no-iMac.local (44438)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 44438
+[06/01/12 16:03:28 +0900 Takasaki-Kenji-no-iMac.local (44438)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 16:05:42 +0900 Takasaki-Kenji-no-iMac.local (44512)] INFO : Dispatcher: thin
+[06/01/12 16:05:42 +0900 Takasaki-Kenji-no-iMac.local (44512)] INFO : Application: development
+[06/01/12 16:05:42 +0900 Takasaki-Kenji-no-iMac.local (44512)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 16:05:42 +0900 Takasaki-Kenji-no-iMac.local (44512)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 44512
+[06/01/12 16:05:42 +0900 Takasaki-Kenji-no-iMac.local (44512)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 16:10:12 +0900 Takasaki-Kenji-no-iMac.local (44688)] INFO : Dispatcher: thin
+[06/01/12 16:10:12 +0900 Takasaki-Kenji-no-iMac.local (44688)] INFO : Application: development
+[06/01/12 16:10:12 +0900 Takasaki-Kenji-no-iMac.local (44688)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 16:10:12 +0900 Takasaki-Kenji-no-iMac.local (44688)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 44688
+[06/01/12 16:10:12 +0900 Takasaki-Kenji-no-iMac.local (44688)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 16:32:25 +0900 Takasaki-Kenji-no-iMac.local (45463)] INFO : Dispatcher: thin
+[06/01/12 16:32:25 +0900 Takasaki-Kenji-no-iMac.local (45463)] INFO : Application: development
+[06/01/12 16:32:25 +0900 Takasaki-Kenji-no-iMac.local (45463)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 16:32:25 +0900 Takasaki-Kenji-no-iMac.local (45463)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 45463
+[06/01/12 16:32:25 +0900 Takasaki-Kenji-no-iMac.local (45463)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 16:32:40 +0900 Takasaki-Kenji-no-iMac.local (45476)] INFO : Dispatcher: thin
+[06/01/12 16:32:40 +0900 Takasaki-Kenji-no-iMac.local (45476)] INFO : Application: development
+[06/01/12 16:32:40 +0900 Takasaki-Kenji-no-iMac.local (45476)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 16:32:40 +0900 Takasaki-Kenji-no-iMac.local (45476)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 45476
+[06/01/12 16:32:40 +0900 Takasaki-Kenji-no-iMac.local (45476)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 17:02:17 +0900 Takasaki-Kenji-no-iMac.local (46640)] INFO : Dispatcher: thin
+[06/01/12 17:02:17 +0900 Takasaki-Kenji-no-iMac.local (46640)] INFO : Application: development
+[06/01/12 17:02:17 +0900 Takasaki-Kenji-no-iMac.local (46640)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 17:02:17 +0900 Takasaki-Kenji-no-iMac.local (46640)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 46640
+[06/01/12 17:02:17 +0900 Takasaki-Kenji-no-iMac.local (46640)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 18:36:59 +0900 Takasaki-Kenji-no-iMac.local (49959)] INFO : Dispatcher: thin
+[06/01/12 18:36:59 +0900 Takasaki-Kenji-no-iMac.local (49959)] INFO : Application: development
+[06/01/12 18:36:59 +0900 Takasaki-Kenji-no-iMac.local (49959)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 18:36:59 +0900 Takasaki-Kenji-no-iMac.local (49959)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 49959
+[06/01/12 18:36:59 +0900 Takasaki-Kenji-no-iMac.local (49959)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 18:40:29 +0900 Takasaki-Kenji-no-iMac.local (50070)] INFO : Dispatcher: thin
+[06/01/12 18:40:29 +0900 Takasaki-Kenji-no-iMac.local (50070)] INFO : Application: development
+[06/01/12 18:40:29 +0900 Takasaki-Kenji-no-iMac.local (50070)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 18:40:29 +0900 Takasaki-Kenji-no-iMac.local (50070)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 50070
+[06/01/12 18:40:29 +0900 Takasaki-Kenji-no-iMac.local (50070)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 18:53:32 +0900 Takasaki-Kenji-no-iMac.local (50534)] INFO : Dispatcher: thin
+[06/01/12 18:53:32 +0900 Takasaki-Kenji-no-iMac.local (50534)] INFO : Application: development
+[06/01/12 18:53:32 +0900 Takasaki-Kenji-no-iMac.local (50534)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 18:53:32 +0900 Takasaki-Kenji-no-iMac.local (50534)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 50534
+[06/01/12 18:53:32 +0900 Takasaki-Kenji-no-iMac.local (50534)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 18:55:27 +0900 Takasaki-Kenji-no-iMac.local (50632)] INFO : Dispatcher: thin
+[06/01/12 18:55:27 +0900 Takasaki-Kenji-no-iMac.local (50632)] INFO : Application: development
+[06/01/12 18:55:27 +0900 Takasaki-Kenji-no-iMac.local (50632)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 18:55:27 +0900 Takasaki-Kenji-no-iMac.local (50632)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 50632
+[06/01/12 18:55:27 +0900 Takasaki-Kenji-no-iMac.local (50632)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 18:56:18 +0900 Takasaki-Kenji-no-iMac.local (50713)] INFO : Dispatcher: thin
+[06/01/12 18:56:18 +0900 Takasaki-Kenji-no-iMac.local (50713)] INFO : Application: development
+[06/01/12 18:56:18 +0900 Takasaki-Kenji-no-iMac.local (50713)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 18:56:18 +0900 Takasaki-Kenji-no-iMac.local (50713)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 50713
+[06/01/12 18:56:18 +0900 Takasaki-Kenji-no-iMac.local (50713)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 21:30:05 +0900 Takasaki-Kenji-no-iMac.local (1129)] INFO : Dispatcher: thin
+[06/01/12 21:30:05 +0900 Takasaki-Kenji-no-iMac.local (1129)] INFO : Application: development
+[06/01/12 21:30:05 +0900 Takasaki-Kenji-no-iMac.local (1129)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 21:30:05 +0900 Takasaki-Kenji-no-iMac.local (1129)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 1129
+[06/01/12 21:30:05 +0900 Takasaki-Kenji-no-iMac.local (1129)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 21:36:30 +0900 Takasaki-Kenji-no-iMac.local (1340)] INFO : Dispatcher: thin
+[06/01/12 21:36:30 +0900 Takasaki-Kenji-no-iMac.local (1340)] INFO : Application: development
+[06/01/12 21:36:30 +0900 Takasaki-Kenji-no-iMac.local (1340)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 21:36:30 +0900 Takasaki-Kenji-no-iMac.local (1340)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 1340
+[06/01/12 21:36:30 +0900 Takasaki-Kenji-no-iMac.local (1340)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 21:47:59 +0900 Takasaki-Kenji-no-iMac.local (1940)] INFO : Dispatcher: thin
+[06/01/12 21:47:59 +0900 Takasaki-Kenji-no-iMac.local (1940)] INFO : Application: development
+[06/01/12 21:47:59 +0900 Takasaki-Kenji-no-iMac.local (1940)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 21:47:59 +0900 Takasaki-Kenji-no-iMac.local (1940)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 1940
+[06/01/12 21:47:59 +0900 Takasaki-Kenji-no-iMac.local (1940)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 21:49:43 +0900 Takasaki-Kenji-no-iMac.local (2040)] INFO : Dispatcher: thin
+[06/01/12 21:49:43 +0900 Takasaki-Kenji-no-iMac.local (2040)] INFO : Application: production
+[06/01/12 21:49:43 +0900 Takasaki-Kenji-no-iMac.local (2040)] ERROR : Invalid license key: 
+[06/01/12 21:49:43 +0900 Takasaki-Kenji-no-iMac.local (2040)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 2040
+[06/01/12 21:49:43 +0900 Takasaki-Kenji-no-iMac.local (2040)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 21:50:07 +0900 Takasaki-Kenji-no-iMac.local (2040)] INFO : Dispatcher: thin
+[06/01/12 21:50:07 +0900 Takasaki-Kenji-no-iMac.local (2040)] INFO : Application: production
+[06/01/12 21:50:07 +0900 Takasaki-Kenji-no-iMac.local (2040)] ERROR : Invalid license key: 
+[06/01/12 21:50:07 +0900 Takasaki-Kenji-no-iMac.local (2040)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 2040
+[06/01/12 21:50:07 +0900 Takasaki-Kenji-no-iMac.local (2040)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 22:06:13 +0900 Takasaki-Kenji-no-iMac.local (3687)] INFO : Dispatcher: thin
+[06/01/12 22:06:13 +0900 Takasaki-Kenji-no-iMac.local (3687)] INFO : Application: development
+[06/01/12 22:06:13 +0900 Takasaki-Kenji-no-iMac.local (3687)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 22:06:13 +0900 Takasaki-Kenji-no-iMac.local (3687)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 3687
+[06/01/12 22:06:13 +0900 Takasaki-Kenji-no-iMac.local (3687)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/01/12 22:06:26 +0900 Takasaki-Kenji-no-iMac.local (3703)] INFO : Dispatcher: thin
+[06/01/12 22:06:26 +0900 Takasaki-Kenji-no-iMac.local (3703)] INFO : Application: development
+[06/01/12 22:06:26 +0900 Takasaki-Kenji-no-iMac.local (3703)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/01/12 22:06:26 +0900 Takasaki-Kenji-no-iMac.local (3703)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 3703
+[06/01/12 22:06:26 +0900 Takasaki-Kenji-no-iMac.local (3703)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 11:20:06 +0900 takasaki-kenji-no-MacBook-Pro.local (3033)] INFO : Dispatcher: thin
+[06/04/12 11:20:06 +0900 takasaki-kenji-no-MacBook-Pro.local (3033)] INFO : Application: development
+[06/04/12 11:20:06 +0900 takasaki-kenji-no-MacBook-Pro.local (3033)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/04/12 11:20:06 +0900 takasaki-kenji-no-MacBook-Pro.local (3033)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 3033
+[06/04/12 11:20:06 +0900 takasaki-kenji-no-MacBook-Pro.local (3033)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 11:20:41 +0900 takasaki-kenji-no-MacBook-Pro.local (3082)] INFO : Dispatcher: thin
+[06/04/12 11:20:41 +0900 takasaki-kenji-no-MacBook-Pro.local (3082)] INFO : Application: development
+[06/04/12 11:20:41 +0900 takasaki-kenji-no-MacBook-Pro.local (3082)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/04/12 11:20:41 +0900 takasaki-kenji-no-MacBook-Pro.local (3082)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 3082
+[06/04/12 11:20:41 +0900 takasaki-kenji-no-MacBook-Pro.local (3082)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 11:21:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3106)] INFO : Dispatcher: thin
+[06/04/12 11:21:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3106)] INFO : Application: development
+[06/04/12 11:21:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3106)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/04/12 11:21:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3106)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 3106
+[06/04/12 11:21:27 +0900 takasaki-kenji-no-MacBook-Pro.local (3106)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 22:01:37 +0900 Takasaki-Kenji-no-iMac.local (18500)] INFO : Dispatcher: thin
+[06/04/12 22:01:37 +0900 Takasaki-Kenji-no-iMac.local (18500)] INFO : Application: production
+[06/04/12 22:01:37 +0900 Takasaki-Kenji-no-iMac.local (18500)] ERROR : Invalid license key: 
+[06/04/12 22:01:37 +0900 Takasaki-Kenji-no-iMac.local (18500)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 18500
+[06/04/12 22:01:37 +0900 Takasaki-Kenji-no-iMac.local (18500)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 22:02:02 +0900 Takasaki-Kenji-no-iMac.local (18500)] INFO : Dispatcher: thin
+[06/04/12 22:02:02 +0900 Takasaki-Kenji-no-iMac.local (18500)] INFO : Application: production
+[06/04/12 22:02:02 +0900 Takasaki-Kenji-no-iMac.local (18500)] ERROR : Invalid license key: 
+[06/04/12 22:02:02 +0900 Takasaki-Kenji-no-iMac.local (18500)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 18500
+[06/04/12 22:02:02 +0900 Takasaki-Kenji-no-iMac.local (18500)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 22:11:53 +0900 Takasaki-Kenji-no-iMac.local (19751)] INFO : Dispatcher: thin
+[06/04/12 22:11:53 +0900 Takasaki-Kenji-no-iMac.local (19751)] INFO : Application: development
+[06/04/12 22:11:53 +0900 Takasaki-Kenji-no-iMac.local (19751)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/04/12 22:11:53 +0900 Takasaki-Kenji-no-iMac.local (19751)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 19751
+[06/04/12 22:11:53 +0900 Takasaki-Kenji-no-iMac.local (19751)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 22:12:08 +0900 Takasaki-Kenji-no-iMac.local (19774)] INFO : Dispatcher: thin
+[06/04/12 22:12:08 +0900 Takasaki-Kenji-no-iMac.local (19774)] INFO : Application: development
+[06/04/12 22:12:08 +0900 Takasaki-Kenji-no-iMac.local (19774)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/04/12 22:12:08 +0900 Takasaki-Kenji-no-iMac.local (19774)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 19774
+[06/04/12 22:12:08 +0900 Takasaki-Kenji-no-iMac.local (19774)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 22:15:31 +0900 Takasaki-Kenji-no-iMac.local (20049)] INFO : Dispatcher: thin
+[06/04/12 22:15:31 +0900 Takasaki-Kenji-no-iMac.local (20049)] INFO : Application: production
+[06/04/12 22:15:31 +0900 Takasaki-Kenji-no-iMac.local (20049)] ERROR : Invalid license key: 
+[06/04/12 22:15:31 +0900 Takasaki-Kenji-no-iMac.local (20049)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 20049
+[06/04/12 22:15:31 +0900 Takasaki-Kenji-no-iMac.local (20049)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 22:18:12 +0900 Takasaki-Kenji-no-iMac.local (20049)] INFO : Dispatcher: thin
+[06/04/12 22:18:12 +0900 Takasaki-Kenji-no-iMac.local (20049)] INFO : Application: production
+[06/04/12 22:18:12 +0900 Takasaki-Kenji-no-iMac.local (20049)] ERROR : Invalid license key: 
+[06/04/12 22:18:12 +0900 Takasaki-Kenji-no-iMac.local (20049)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 20049
+[06/04/12 22:18:12 +0900 Takasaki-Kenji-no-iMac.local (20049)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 22:44:16 +0900 Takasaki-Kenji-no-iMac.local (21391)] INFO : Dispatcher: thin
+[06/04/12 22:44:16 +0900 Takasaki-Kenji-no-iMac.local (21391)] INFO : Application: production
+[06/04/12 22:44:16 +0900 Takasaki-Kenji-no-iMac.local (21391)] ERROR : Invalid license key: 
+[06/04/12 22:44:16 +0900 Takasaki-Kenji-no-iMac.local (21391)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 21391
+[06/04/12 22:44:16 +0900 Takasaki-Kenji-no-iMac.local (21391)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/04/12 22:44:50 +0900 Takasaki-Kenji-no-iMac.local (21391)] INFO : Dispatcher: thin
+[06/04/12 22:44:50 +0900 Takasaki-Kenji-no-iMac.local (21391)] INFO : Application: production
+[06/04/12 22:44:50 +0900 Takasaki-Kenji-no-iMac.local (21391)] ERROR : Invalid license key: 
+[06/04/12 22:44:50 +0900 Takasaki-Kenji-no-iMac.local (21391)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 21391
+[06/04/12 22:44:50 +0900 Takasaki-Kenji-no-iMac.local (21391)] INFO : Agent Log at /Users/KenjiTakasaki/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/05/12 10:52:03 +0900 takasaki-kenji-no-MacBook-Pro.local (2393)] INFO : Dispatcher: thin
+[06/05/12 10:52:03 +0900 takasaki-kenji-no-MacBook-Pro.local (2393)] INFO : Application: development
+[06/05/12 10:52:03 +0900 takasaki-kenji-no-MacBook-Pro.local (2393)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/05/12 10:52:03 +0900 takasaki-kenji-no-MacBook-Pro.local (2393)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 2393
+[06/05/12 10:52:03 +0900 takasaki-kenji-no-MacBook-Pro.local (2393)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/09/12 10:57:30 +0900 takasaki-kenji-no-MacBook-Pro.local (985)] INFO : Dispatcher: thin
+[06/09/12 10:57:30 +0900 takasaki-kenji-no-MacBook-Pro.local (985)] INFO : Application: development
+[06/09/12 10:57:30 +0900 takasaki-kenji-no-MacBook-Pro.local (985)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/09/12 10:57:30 +0900 takasaki-kenji-no-MacBook-Pro.local (985)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 985
+[06/09/12 10:57:30 +0900 takasaki-kenji-no-MacBook-Pro.local (985)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/09/12 10:58:23 +0900 takasaki-kenji-no-MacBook-Pro.local (1096)] INFO : Dispatcher: thin
+[06/09/12 10:58:23 +0900 takasaki-kenji-no-MacBook-Pro.local (1096)] INFO : Application: development
+[06/09/12 10:58:23 +0900 takasaki-kenji-no-MacBook-Pro.local (1096)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/09/12 10:58:23 +0900 takasaki-kenji-no-MacBook-Pro.local (1096)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 1096
+[06/09/12 10:58:23 +0900 takasaki-kenji-no-MacBook-Pro.local (1096)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (809)] INFO : Dispatcher: thin
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (842)] INFO : Dispatcher: thin
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (809)] INFO : Application: development
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (842)] INFO : Application: development
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (809)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (809)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 809
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (809)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (842)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (842)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 842
+[06/09/12 16:50:17 +0900 takasaki-kenji-no-MacBook-Pro.local (842)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/11/12 14:22:09 +0900 takasaki-kenji-no-MacBook-Pro.local (1009)] INFO : Dispatcher: thin
+[06/11/12 14:22:09 +0900 takasaki-kenji-no-MacBook-Pro.local (1009)] INFO : Application: development
+[06/11/12 14:22:09 +0900 takasaki-kenji-no-MacBook-Pro.local (1009)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/11/12 14:22:09 +0900 takasaki-kenji-no-MacBook-Pro.local (1009)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 1009
+[06/11/12 14:22:09 +0900 takasaki-kenji-no-MacBook-Pro.local (1009)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/11/12 14:22:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1038)] INFO : Dispatcher: thin
+[06/11/12 14:22:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1038)] INFO : Application: development
+[06/11/12 14:22:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1038)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/11/12 14:22:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1038)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 1038
+[06/11/12 14:22:49 +0900 takasaki-kenji-no-MacBook-Pro.local (1038)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[06/11/12 14:29:54 +0900 takasaki-kenji-no-MacBook-Pro.local (1681)] INFO : Dispatcher: thin
+[06/11/12 14:29:54 +0900 takasaki-kenji-no-MacBook-Pro.local (1681)] INFO : Application: development
+[06/11/12 14:29:54 +0900 takasaki-kenji-no-MacBook-Pro.local (1681)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[06/11/12 14:29:54 +0900 takasaki-kenji-no-MacBook-Pro.local (1681)] INFO : New Relic Ruby Agent 3.3.5 Initialized: pid = 1681
+[06/11/12 14:29:54 +0900 takasaki-kenji-no-MacBook-Pro.local (1681)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[08/17/12 13:34:20 +0900 takazaki-no-MacBook-Air.local (5447)] INFO : Dispatcher: thin
+[08/17/12 13:34:20 +0900 takazaki-no-MacBook-Air.local (5447)] INFO : Application: development
+[08/17/12 13:34:20 +0900 takazaki-no-MacBook-Air.local (5447)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[08/17/12 13:34:20 +0900 takazaki-no-MacBook-Air.local (5447)] INFO : New Relic Ruby Agent 3.4.1 Initialized: pid = 5447
+[08/17/12 13:34:20 +0900 takazaki-no-MacBook-Air.local (5447)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[08/17/12 13:34:29 +0900 takazaki-no-MacBook-Air.local (5453)] INFO : Dispatcher: thin
+[08/17/12 13:34:29 +0900 takazaki-no-MacBook-Air.local (5453)] INFO : Application: development
+[08/17/12 13:34:29 +0900 takazaki-no-MacBook-Air.local (5453)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[08/17/12 13:34:29 +0900 takazaki-no-MacBook-Air.local (5453)] INFO : New Relic Ruby Agent 3.4.1 Initialized: pid = 5453
+[08/17/12 13:34:29 +0900 takazaki-no-MacBook-Air.local (5453)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[09/21/12 15:48:17 +0900 takazaki-no-MacBook-Air.local (1497)] INFO : Dispatcher: thin
+[09/21/12 15:48:17 +0900 takazaki-no-MacBook-Air.local (1497)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[09/21/12 15:48:17 +0900 takazaki-no-MacBook-Air.local (1497)] ERROR : Invalid license key: 
+[09/21/12 15:48:17 +0900 takazaki-no-MacBook-Air.local (1497)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 1497
+[09/21/12 15:48:17 +0900 takazaki-no-MacBook-Air.local (1497)] INFO : Agent Log at /Users/takasakikenji/Dropbox/coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[09/21/12 15:48:37 +0900 takazaki-no-MacBook-Air.local (1497)] INFO : Dispatcher: thin
+[09/21/12 15:48:37 +0900 takazaki-no-MacBook-Air.local (1497)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[09/21/12 15:48:37 +0900 takazaki-no-MacBook-Air.local (1497)] ERROR : Invalid license key: 
+[09/21/12 15:48:37 +0900 takazaki-no-MacBook-Air.local (1497)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 1497
+[09/21/12 15:48:37 +0900 takazaki-no-MacBook-Air.local (1497)] INFO : Agent Log at /Users/takasakikenji/Dropbox/coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[09/21/12 16:08:04 +0900 takazaki-no-MacBook-Air.local (3199)] INFO : Dispatcher: thin
+[09/21/12 16:08:04 +0900 takazaki-no-MacBook-Air.local (3199)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[09/21/12 16:08:04 +0900 takazaki-no-MacBook-Air.local (3199)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[09/21/12 16:08:04 +0900 takazaki-no-MacBook-Air.local (3199)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 3199
+[09/21/12 16:08:04 +0900 takazaki-no-MacBook-Air.local (3199)] INFO : Agent Log at /Users/takasakikenji/Dropbox/coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[09/21/12 16:08:13 +0900 takazaki-no-MacBook-Air.local (3210)] INFO : Dispatcher: thin
+[09/21/12 16:08:13 +0900 takazaki-no-MacBook-Air.local (3210)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[09/21/12 16:08:13 +0900 takazaki-no-MacBook-Air.local (3210)] WARN : Agent configured not to send data in this environment - edit newrelic.yml to change this
+[09/21/12 16:08:13 +0900 takazaki-no-MacBook-Air.local (3210)] INFO : New Relic Ruby Agent 3.4.2.1 Initialized: pid = 3210
+[09/21/12 16:08:13 +0900 takazaki-no-MacBook-Air.local (3210)] INFO : Agent Log at /Users/takasakikenji/Dropbox/coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[12/14/12 14:48:28 +0900 takazaki-no-MacBook-Air.local (3250)] INFO : Dispatcher: thin
+[12/14/12 14:48:28 +0900 takazaki-no-MacBook-Air.local (3250)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[12/14/12 14:48:28 +0900 takazaki-no-MacBook-Air.local (3250)] WARN : Agent configured not to send data in this environment.
+[12/14/12 14:48:28 +0900 takazaki-no-MacBook-Air.local (3250)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 3250
+[12/14/12 14:48:28 +0900 takazaki-no-MacBook-Air.local (3250)] INFO : Agent Log at /Users/takasakikenji/Dropbox/coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[12/14/12 14:48:38 +0900 takazaki-no-MacBook-Air.local (3268)] INFO : Dispatcher: thin
+[12/14/12 14:48:38 +0900 takazaki-no-MacBook-Air.local (3268)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[12/14/12 14:48:38 +0900 takazaki-no-MacBook-Air.local (3268)] WARN : Agent configured not to send data in this environment.
+[12/14/12 14:48:38 +0900 takazaki-no-MacBook-Air.local (3268)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 3268
+[12/14/12 14:48:38 +0900 takazaki-no-MacBook-Air.local (3268)] INFO : Agent Log at /Users/takasakikenji/Dropbox/coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[12/17/12 17:23:16 +0900 takazaki-no-MacBook-Air.local (4298)] INFO : Dispatcher: thin
+[12/17/12 17:23:16 +0900 takazaki-no-MacBook-Air.local (4298)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[12/17/12 17:23:16 +0900 takazaki-no-MacBook-Air.local (4298)] WARN : Agent configured not to send data in this environment.
+[12/17/12 17:23:16 +0900 takazaki-no-MacBook-Air.local (4298)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 4298
+[12/17/12 17:23:16 +0900 takazaki-no-MacBook-Air.local (4298)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[12/17/12 17:25:58 +0900 takazaki-no-MacBook-Air.local (4370)] INFO : Dispatcher: thin
+[12/17/12 17:25:58 +0900 takazaki-no-MacBook-Air.local (4370)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[12/17/12 17:25:58 +0900 takazaki-no-MacBook-Air.local (4370)] WARN : Agent configured not to send data in this environment.
+[12/17/12 17:25:58 +0900 takazaki-no-MacBook-Air.local (4370)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 4370
+[12/17/12 17:25:58 +0900 takazaki-no-MacBook-Air.local (4370)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log
+[12/17/12 17:26:07 +0900 takazaki-no-MacBook-Air.local (4376)] INFO : Dispatcher: thin
+[12/17/12 17:26:07 +0900 takazaki-no-MacBook-Air.local (4376)] ERROR : Unable to determine application name. Please set the application name in your newrelic.yml or in a NEW_RELIC_APP_NAME environment variable.
+[12/17/12 17:26:07 +0900 takazaki-no-MacBook-Air.local (4376)] WARN : Agent configured not to send data in this environment.
+[12/17/12 17:26:07 +0900 takazaki-no-MacBook-Air.local (4376)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 4376
+[12/17/12 17:26:07 +0900 takazaki-no-MacBook-Air.local (4376)] INFO : Agent Log at /Users/takasakikenji/Dropbox/Coworkscape/web_local/coworkscape/log/newrelic_agent.log

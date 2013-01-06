@@ -1,0 +1,14 @@
+<div class="page-header">
+    <h2><%= @plan.title %></h2>
+</div>
+
+<p>施設名：<%= @plan.space_id %></p>
+<p>料金：<%= @plan.price %></p>
+<p>支払い方法：<%= @plan.per %></p>
+<p>作成者：<%= @plan.user_id %></p>
+
+<% if current_user %>
+<% if @user.id == @plan.user_id %>
+<p><%= link_to(edit_plan_path(@space), :class => 'btn') do %><i class="icon-edit"></i> 編集<% end %> <%= link_to(@plan, confirm: '本当に削除しますか?', method: :delete, :class => 'btn') do %><i class="icon-trash"></i> 削除<% end %></p>
+<% end %>
+<% end %>

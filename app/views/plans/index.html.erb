@@ -1,0 +1,27 @@
+<div class="page-header">
+    <h2>コワーキングスペースの料金一覧</h2>
+</div>
+
+<table class="table">
+  <tr>
+    <th>施設名</th>
+    <th>プラン名</th>
+    <th>料金</th>
+    <th>作成者</th>
+    <th></th>
+  </tr>
+
+<% @plans.each do |plan| %>
+  <tr>
+  	<td><%= Space.find(plan.space_id).name %></td>
+    <td><%= plan.title %></td>
+    <td><%= plan.price %>/<%= plan.per %></td>
+    <td><%= User.find(plan.user_id).name %></td>
+    <td><% if current_user %>
+<% if @user.id == plan.user_id %>
+<p><%= link_to(edit_plan_path(plan), :class => 'btn') do %><i class="icon-edit"></i> 編集<% end %> <%= link_to(plan, confirm: '本当に削除しますか?', method: :delete, :class => 'btn') do %><i class="icon-trash"></i> 削除<% end %></p>
+<% end %>
+<% end %></td>
+  </tr>
+<% end %>
+</table>

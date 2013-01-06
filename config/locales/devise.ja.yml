@@ -1,0 +1,57 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+ja:
+  errors:
+    messages:
+      expired: "は期限が切れました。新しいものをリクエストしてください。"
+      not_found: "は見つかりませんでした。"
+      already_confirmed: "はすでに確認済みです。ログインしてください。"
+      not_locked: "はロックされていません。"
+      not_saved:
+        one: "以下のエラーを確認下さい。"
+        other: "以下のエラーを確認下さい。"
+
+  devise:
+    failure:
+      already_authenticated: 'すでにログインしています。'
+      unauthenticated: 'ログインが必要です。'
+      unconfirmed: 'メールアドレスの確認が必要です。'
+      locked: 'アカウントはロックされています。'
+      invalid: 'メールアドレスかパスワードが違うようです。'
+      invalid_token: 'トークンが違うようです。'
+      timeout: 'ログインの有効期限が切れました。もう一度ログインしてください。'
+      inactive: 'アカウントが有効になっていません。'
+    sessions:
+      signed_in: 'ログインしました。'
+      signed_out: 'ログアウトしました。'
+    passwords:
+      send_instructions: 'パスワード再発行の方法を数分以内にメールします。'
+      updated: 'パスワードを変更しました。ログインします。'
+      updated_not_active: 'パスワードを変更しました。'
+      send_paranoid_instructions: "もしメールアドレスの情報があればパスワード再発行のためのリンクをメールします。"
+    confirmations:
+      send_instructions: 'メールアドレス確認のメールを数分以内にお送りします。'
+      send_paranoid_instructions: 'もしアカウントが存在していれば、メールアドレス確認のメールを数分以内にお送りします。'
+      confirmed: 'メールドレスの確認に成功しました。ログインします。'
+    registrations:
+      signed_up: 'ありがとうございます。仮登録完了しました。登録いただいたメールアドレスに確認のメールをお送りしましたので、そのメールに記載されているリンクをクリックして、登録を完了して下さい。'
+      signed_up_but_unconfirmed: '登録いただいたメールアドレスに確認のメールをお送りしましたので、そのメールに記載されているリンクをクリックして、登録を完了して下さい。'
+      signed_up_but_inactive: '登録が完了しましたが、メールアドレスの確認ができていないので、ログインできません。'
+      signed_up_but_locked: '登録が完了しましたが、アカウントがロックされているので、ログインできません。'
+      updated: 'アカウントを更新しました。'
+      update_needs_confirmation: "アカウントを更新しました。新しいメールアドレス確認のためのメールをお送りしました。そのメールに書いてあるリンクをクリックして更新を完了させてください。"
+      destroyed: 'キャンセルを完了しました。残念ですが、またのご利用をお待ちしております。'
+    unlocks:
+      send_instructions: 'アカウントのロック解除のためのメールをお送りしました。'
+      unlocked: 'アカウントのロックを解除しました。'
+      send_paranoid_instructions: 'もしアカウントが存在していれば、アカウントのロック解除のためのメールをお送りします。'
+    omniauth_callbacks:
+      success: '%{kind} からのアクセスの承認に成功しました。'
+      failure: '"%{reason}"のため、%{kind}からのアクセスの承認に失敗しました。'
+    mailer:
+      confirmation_instructions:
+        subject: 'Coworkscapeへようこそ'
+      reset_password_instructions:
+        subject: 'パスワード再発行'
+      unlock_instructions:
+        subject: 'アカウントのロック解除'

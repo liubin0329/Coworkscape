@@ -1,0 +1,34 @@
+<%= form_for(@plan, :html => { :multipart => true, :class => "form-horizontal" }) do |f| %>
+  <% if @plan.errors.any? %>
+    <div id="error_explanation" class="alert alert-block">
+      <h2><%= pluralize(@plan.errors.count, "error") %> prohibited this plan from being saved:</h2>
+
+      <ul>
+      <% @plan.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  
+  <div class="control-group">
+    <%= f.label :title, :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_field :title, :class=> "input-xlarge" %>
+    </div>
+  </div>
+
+<div class="control-group">
+    <%= f.label :price, :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_field :price, :class=> "input-xlarge" %>円/<%= f.select :per, Plan::PER_TYPES, :prompt => "選択してください", :selected => @plan.per, :class => "span1" %>
+    </div>
+  </div>
+  
+  <%= f.hidden_field :user_id, :value => @user.id %>
+  
+  <div class="form-actions">
+    <%= f.submit '送信', :class=>"btn btn-primary" %>
+  </div>
+  
+<% end %>

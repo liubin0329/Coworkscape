@@ -1,0 +1,172 @@
+<% content_for :title do -%>
+<%= @space.name %> | <%= @space.pref %><%= @space.address1 %> || Coworkscape - 登録自由のコワーキングスペース情報サイト -
+<% end -%>
+<script type="text/javascript">
+  
+  function initializeMap() {
+    var myLatlng = new google.maps.LatLng(<%= @space.latitude.to_f %>,<%= @space.longitude.to_f %>);
+    var myOptions = {
+    zoom: 16,
+    disableDefaultUI: true,
+    scrollwheel: false,
+    panControl: true,
+	scaleControl: true,
+	overviewMapControl: true,
+    center: myLatlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    
+    var marker = new google.maps.Marker({
+        position: myLatlng, 
+        map: map,
+        title:"<%= @space.name %>"
+    });   
+  }
+
+  google.maps.event.addDomListener(window, 'load', initializeMap);
+  
+</script>
+<div class="page-header">
+    <h2><%= @space.name %></h2>
+    <div class="txtgray"><i class="icon-map-marker"></i><%= @space.pref %><%= @space.address1 %></div>
+</div>
+<div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item"><%= image_tag @space.photo.url(:large) %></div>
+    <% if @space.photo1.file? %>
+    <div class="item"><%= image_tag @space.photo1.url(:large) %></div>
+    <% end %>
+    <% if @space.photo2.file? %>
+    <div class="item"><%= image_tag @space.photo2.url(:large) %></div>
+    <% end %>
+    <% if @space.photo3.file? %>
+    <div class="item"><%= image_tag @space.photo3.url(:large) %></div>
+    <% end %>
+  </div>
+  <% if @space.photo1.file? %>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+  <% end %>
+</div>
+
+<h3>基本情報</h3>
+
+<p><%= simple_format(@space.description) %></p>
+
+<p style="margin-top:40px;"><i class="icon-home"></i> 〒<%= @space.zip %>　<%= @space.pref %><%= @space.address1 %><%= @space.address2 %><%= @space.address3 %></p>
+
+<div id="map_canvas" style="width: 100%; height: 400px;"></div>
+
+<% unless @space.phone.blank? %>
+<p><i class="icon-tel"></i> <%= @space.phone %></p>
+<% end %>
+
+<% unless @space.availability.blank? %>
+<p><i class="icon-time"></i> <%= @space.availability %></p>
+<% end %>
+
+<% unless @space.website.blank? %>
+<p><i class="icon-external-link"></i> <a href="<%= @space.website %>" target="_blank"><%= @space.website %></a>
+<% end %>
+
+<% unless @space.email.blank? %>
+<p><i class="icon-envelope"></i> <a href="mailto:<%= @space.email %>"><%= @space.email %></a></p>
+<% end %>
+
+<% unless @space.twitter.blank? %>
+<p><i class="icon-twitter"></i> <a href="https://twitter.com/#!/<%= @space.twitter %>" target="_blank">@<%= @space.twitter %></a>
+<% end %>
+
+<% unless @space.facebook.blank? %>
+<p><i class="icon-facebook"></i> <a href="https://facebook.com/<%= @space.facebook %>" target="_blank">https://facebook.com/<%= @space.facebook %></a>
+<% end %>
+
+<% unless @space.organization.blank? %>
+<p><i class="icon-book"></i> <%= @space.organization %></p>
+<% end %>
+
+<h3>サービス</h3>
+<% if @space.oneday %><span class="label onedayuse">1日利用可</span><% end %>
+<% if @space.twentyfour %><span class="label twentyfour">24時間営業</span><% end %>
+<% if @space.weekends %><span class="label weekends">週末可</span><% end %>
+<% if @space.receipt %><span class="label receipt">受付</span><% end %>
+<% if @space.reg %><span class="label reg">登記可</span><% end %>
+<% if @space.post %><span class="label post">郵便受取サービス</span><% end %>
+<% if @space.phone_machine %><span class="label phone_machine">固定電話番号取得サービス</span><% end %>
+<% if @space.drinks %><span class="label drinks">飲み物</span><% end %>
+<% if @space.pet %><span class="label pet">ペット可</span><% end %>
+<% if @space.visa %><span class="label pet">コワーキングビザjp使用可</span><% end %>
+
+<h3>設備</h3>
+  <table class="table table-bordered table-condensed table-aligncenter" style="margin-bottom:10px;">
+  <thead>
+  <tr>
+  <th width="20%">WiFi</th>
+  <th width="20%">電源</th>
+  <th width="20%">プリンタ</th>
+  <th width="20%">コピー機</th>
+  <th width="20%">スキャナ</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+   <td><% if @space.wifi %>○<% else %>×<% end %></td>
+   <td><% if @space.charger %>○<% else %>×<% end %></td>
+   <td><% if @space.printer %>○<% else %>×<% end %></td>
+   <td><% if @space.copy %>○<% else %>×<% end %></td>
+   <td><% if @space.scanner %>○<% else %>×<% end %></td>
+  </tr>
+  </tbody>
+  </table>
+  
+<% if @space.conference %><span class="label conference">会議室</span><% end %>
+<% if @space.projector %><span class="label projector">プロジェクター</span><% end %>
+<% if @space.whiteboard %><span class="label whiteboard">ホワイトボード</span><% end %>
+<% if @space.locker %><span class="label locker">鍵付きロッカー</span><% end %>
+<% if @space.fax %><span class="label fax">FAX</span><% end %>
+<% if @space.shredder %><span class="label shredder">シュレッダー</span><% end %>
+
+<h3>料金</h3>
+  <table class="table normaltable">
+  <thead>
+  <tr>
+  <th>プラン名</th>
+  <th>料金</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% for plan in @space.plans.order('price DESC') %>
+  <% unless plan.price.blank? %>
+  <tr>
+    <td><%= plan.title %></td>
+    <td><%= number_to_currency(plan.price) %>/<%= plan.per %></td>
+  </tr>
+  <% end %>
+  <% end %>
+  </tbody>
+  </table>
+
+<% if @space.price_notice %>
+<p><%= simple_format(@space.price_notice) %></p>
+<% end %>
+
+<% if current_user %>
+<% if @user == @space.user || @user.admin %>
+<p><%= link_to(edit_space_path(@space), :class => 'btn') do %><i class="icon-edit"></i> 編集<% end %> <%= link_to(@space, confirm: '本当に削除しますか?', method: :delete, :class => 'btn') do %><i class="icon-trash"></i> 削除<% end %></p>
+<% end %>
+<% end %>
+
+<div class="snsbuttons">
+              <div class="fblikebuttonarea">
+              <fb:like href="" send="false" layout="button_count" width="110" show_faces="false"></fb:like>
+              </div>
+              <div class="twitterbuttonarea">
+              <a href="https://twitter.com/share" class="twitter-share-button" data-url="<%= url_for(:only_path => false) %>" data-via="Coworkscape" data-lang="ja">ツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
+              </div>
+
+<div class="fb-comments" data-href="<%= url_for(:only_path => false, :controller=>"/spaces", :action=>"show", :id=>@space.id) %>" data-num-posts="2" data-width="700"></div>

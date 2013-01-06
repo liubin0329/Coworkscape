@@ -1,0 +1,20 @@
+<div class="page-header">
+<h2>メールアドレス確認メール再送信</h2>
+</div>
+
+<%= form_for(resource, :as => resource_name, :url => confirmation_path(resource_name), :html => { :method => :post, :class => "form-horizontal" }) do |f| %>
+  <%= devise_error_messages! %>
+  
+  <div class="control-group">
+  <%= f.label :email, :class => "control-label" %>
+  <div class="controls">
+  <%= f.email_field :email, :class=>"input-file" %>
+  </div>
+  </div>
+  
+  <div class="form-actions">
+  <%= f.submit "再送信", :class=>"btn btn-primary" %>
+  </div>
+<% end %>
+
+<%= render "links" %>

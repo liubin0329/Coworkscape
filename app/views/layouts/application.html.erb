@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"> 
+<head>
+  <title><%= content_for?(:title) ? yield(:title) : "Coworkscape - 登録自由のコワーキングスペース情報サイト -" %></title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Coworkscapeは、登録自由のコワーキングスペース情報サイトです。全国のコワーキングスペースが一覧で確認できるほか、現在地の近くのコワーキングスペースを検索することができます。">
+  <meta name="keywords" content="コワーキングスペース,コワーキング,<% unless @space.blank? %><%= @space.name %>,<% end %><% unless @pref.blank? %><%= @pref %><% end %>">
+  <meta name="author" content="Kenji Takasaki, Mai Oura &amp; Shota Sato">
+  <meta name="google-site-verification" content="f58TGyGaTkvbs8TGyPNTFd8Ufwudf3022SvavoHjyXw">
+  <meta name="google-site-verification" content="H1Eglp01ZAFHr9WQIxyBVJO8TsAoOJsiaC_bTi6hHao" />
+  <html xmlns:fb="http://ogp.me/ns/fb#">
+  <%= csrf_meta_tags %>
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	  <script src="https://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+  <![endif]-->
+  
+  <%= stylesheet_link_tag "application", :media => "all" %>
+
+  <link rel="shortcut icon" href=" /assets/favicon.ico">
+  <link rel="apple-touch-icon" href=" /assets/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href=" /assets/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href=" /assets/apple-touch-icon-114x114.png">
+  <link rel="canonical" href="<%= url_for(:only_path => false) %>" />
+  <!-- ogp -->
+  <meta property="og:title" content="<%= content_for?(:title) ? yield(:title) : "Coworkscape - 登録自由のコワーキングスペース情報サイト -" %>">
+  <meta property="og:description" content="<% unless @space.blank? %><%= @space.description %><% else %>Coworkscapeは、登録自由のコワーキングスペース情報サイトです。全国のコワーキングスペースが一覧で確認できるほか、現在地の近くののコワーキングスペースを検索することができます。<% end %>">
+  <meta property="og:url" content="<%= url_for(:only_path => false) %>">
+  <% unless @space.blank? %>
+  <meta property="og:image" content="<%= @space.photo.url(:small) %>">
+  <% else %>
+  <meta property="og:image" content="http://www.cowork.so/assets/ogp.jpg">
+  <% end %>
+  <meta property="og:site_name" content="Coworkscape - 登録自由のコワーキングスペース情報サイト -">
+  <meta property="og:site_url" content="http://www.cowork.so/">
+  <!-- ogp -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+  <link rel="alternate" type="application/rss+xml" title="Coworkscape - 登録自由のコワーキングスペース情報サイト -" href="http://www.cowork.so/spaces.rss" />
+</head>
+
+<body class="ja <%= controller.controller_name %>-<%= controller.action_name %>" data-spy="scroll" data-target=".subnav" data-offset="50" data-twttr-rendered="true">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=355273517855842";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div class="navbar navbar-fixed-top">
+	  <div class="navbar-inner">
+		<div class="container">
+		  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </a>
+		  <%= link_to image_tag('/assets/common_header_logo.png', alt: "Coworkscape", width: 156, height: 16), root_path, :class=>"brand" %>
+		  <%= link_to image_tag('/assets/common_header_lead.png?v=2', alt: "登録自由のコワーキングスペース情報サイト", width: 136, height: 16), root_path, :class=>"brand hidden-phone" %>
+		  
+		  <div class="nav-collapse">
+			<ul class="nav">
+			  <li <% if current_page?(root_path) || current_page?(spaces_path) || controller.action_name == 'search' || controller.action_name == 'category' %>class = "active"<% end %>><%= link_to :controller => '/spaces', :action => 'index' do %><i class="icon-search"></i> スペースを探す<% end %></li>
+			  <li <% if current_page?(:controller => '/spaces', :action => 'new') %>class = "active"<% end %>><%= link_to :controller => '/spaces', :action => 'new' do %><i class="icon-plus"></i> スペースを登録する<% end %></li>
+			</ul>
+
+			<% unless current_user %>
+			<p class="navbar-text pull-right"><i class="icon-pencil icon-white"></i> <a href="/users/sign_up" rel="tooltip" data-original-title="スペースを登録するには、ここからユーザ登録をしてください">新規登録</a> | <i class="icon-user icon-white"></i> <a href="/users/sign_in">ログイン</a></p>
+			<% else %>
+			<ul class="nav pull-right">
+  				<li id="fat-menu" class="dropdown">
+    				<a class="dropdown-toggle" data-toggle="dropdown"><%= image_tag @user.avatar.url(:small) %><%= @user.name %>としてログイン中<b class="caret"></b></a>
+    						<ul class="dropdown-menu">
+      						<li><%= link_to 'プロフィール編集', edit_user_registration_path %></li>
+      						<li><%= link_to '管理しているコワーキングスペース一覧', :controller => "/spaces", :action => "search", :user_id => @user.id %></li>
+      						<li class="divider"></li>
+      						<li><%= link_to('ログアウト', destroy_user_session_path, :method=>'delete') %></p></li>
+						    </ul>
+						  </li>
+					</ul>
+			<% end %>
+		  </div><!--/.nav-collapse -->
+		</div>
+	  </div>
+	</div>
+	
+<div class="container">
+	<div class="mainimg visible-desktop">
+	<%= image_tag('/assets/top_mainimg_bg.jpg', alt: "登録自由のコワーキングスペース情報サイト", width: 940, height: 162) %>
+	<div class="mainimgBtn"><a href="javascript:void(0);" rel="popover" data-content="Coworkscape（コワークスケープ）は、登録自由のコワーキングスペース情報サイトです。" data-original-title="Coworkscape"></a></div>
+	</div>
+
+	<header class="jumbotron subhead" id="overview">
+        <div class="subnav subnav-fixed">
+        <div class="subnavbar-inner">
+        <%= form_tag({:controller => "/spaces", :action => "search", :id => "hoge" }, {:method=>"get", :class => "well form-search"}) do %>
+  		<div style="margin:0;padding:0;display:inline"><%= text_field_tag :keyword, '', :class => "search-query", :placeholder=>"エリアまたは店名" %>
+  		<%= submit_tag '検索', :class=>"btn" %></div>
+  		<a href="javascript:void(0);" id="nearby"><span class="nearbysearch"><i class="icon-map-marker icon-white"></i>現在地から探す</span></a><span class="hidden-phone"> | </span><a href="javascript:void(0);" id="detail"><span class="nearbysearch"><i class="icon-asterisk icon-white"></i>詳細検索</span></a>
+  		<div id="search-option" style="display:none;">
+  		<div class="control-group">
+            <label class="control-label" for="inlineCheckboxes">サービス</label>
+            <div class="controls">
+              <label class="checkbox inline">
+              	<%= check_box_tag "option[]", :oneday %> 1日利用可
+              </label>
+              <label class="checkbox inline">
+              	<%= check_box_tag "option[]", :twentyfour %> 24時間営業
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :weekends %> 週末可
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :receipt %> 受付
+              </label>    
+               <label class="checkbox inline">
+                <%= check_box_tag "option[]", :reg %> 登記可
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :post %> 郵便受取サービス
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :phone_machine %> 固定電話番号取得サービス
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :drinks %> 飲み物
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :pet %> ペット可
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :visa %> コワーキングビザjp使用可
+              </label>
+          	</div>
+   </div>
+  <div class="control-group">
+            <label class="control-label" for="inlineCheckboxes">設備</label>
+            <div class="controls">
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :wifi %> Wifi
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :printer %> プリンタ
+              </label> 
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :copy %> コピー機
+              </label> 
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :scanner %> スキャナ
+              </label>    
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :conference %> 会議室
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :projector %> プロジェクター
+              </label> 
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :whiteboard %>  ホワイトボード
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :locker %> 鍵付きロッカー
+              </label>               
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :fax %> FAX
+              </label>       
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :shredder %> シュレッダー
+              </label>
+              <label class="checkbox inline">
+                <%= check_box_tag "option[]", :charger %>  電源
+              </label>
+
+          	</div>
+         </div>
+  		
+		<% end %>
+		</div>
+        </div>
+      </header>
+     <% if current_page?(root_path) || current_page?(spaces_path) || controller.action_name == 'search' || controller.action_name == 'category' %>
+      <div class="row">
+		<div class="span12 columns">
+      <% else %>
+      <div class="row">
+		<div class="span9 columns">
+	  
+	  <% end %>
+	  <p class="alert alert-info"><a href="http://blog.non-standardworld.co.jp/non-standard_world/news/a_final_farewell/" target="_blank">重要：サービス終了とオープンソース化について</a></p>
+		<% unless notice.blank? %>
+		<%= params["option[]"] %>
+		<p class="alert alert-info"><a class="close" data-dismiss="alert" href="javascript:void(0);">×</a><%= notice %></p>
+		<% end %>
+		<% unless alert.blank? %>
+		<p class="alert alert-success"><a class="close" data-dismiss="alert" href="javascript:void(0);">×</a><%= alert %></p>
+		<% end %>
+		<section id="<%= controller.controller_name %>-<%= controller.action_name %>">
+			<%= yield %>
+		</section>
+		
+		</div><!--/span-->
+
+		<% unless current_page?(root_path) || current_page?(spaces_path) || controller.action_name == 'search' || controller.action_name == 'category' %>
+			<div class="span3 columns">
+
+		 <div class="onceBannerArea sidebar-nav">		
+			<div class="hidden-phone"><a href="http://afod.net" target="_blank"><img class="width100per" src="/assets/common_afod_normal.jpg" alt="afod（アフォッド）〜くらしのためのアート。"></a></div>
+			<div class="visible-phone"><a href="http://afod.net" target="_blank"><img class="width100per" src="/assets/common_afod_normal.jpg" alt="afod（アフォッド）〜くらしのためのアート。"></a></div>
+		  </div><!--/.onceBannerArea -->
+		
+		<div class="sidebar-nav">
+		<div class="fb-recommendations" data-site="www.cowork.so" data-app-id="355273517855842" data-width="220" data-height="300" data-header="false" data-linktarget="_parent" data-border-color="#CCCCCC"></div>
+		<div class="fb-like-box" data-href="https://www.facebook.com/coworkscape" data-width="220" data-height="770" data-show-faces="true" data-border-color="#CCCCCC" data-stream="true" data-header="false"></div>
+		</div><!--/.sidebar-nav -->
+		
+		 <div class="well sidebar-nav">
+				
+			<script charset="utf-8" src="https://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+	shell: {
+	  background: '#f5f5f5',
+	  color: '#666666'
+	},
+	tweets: {
+	  background: '#f5f5f5',
+	  color: '#666666',
+	  links: '#0088CC'
+	}
+  },
+  features: {
+	scrollbar: false,
+	loop: false,
+	live: false,
+	behavior: 'all'
+  }
+}).render().setUser('Coworkscape').start();
+</script>
+		  </div><!--/.well -->
+
+	</div><!--/span-->
+
+<% end %>
+	</div><!--/row-->
+  
+
+<% if current_page?(root_path) || current_page?(spaces_path) || controller.action_name == 'search' || controller.action_name == 'category' %>
+
+  <div class="row">
+	<div class="span6 columns">
+		<div class="well sidebar-nav">
+			<script charset="utf-8" src="https://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+	shell: {
+	  background: '#f5f5f5',
+	  color: '#666666'
+	},
+	tweets: {
+	  background: '#f5f5f5',
+	  color: '#666666',
+	  links: '#0088CC'
+	}
+  },
+  features: {
+	scrollbar: false,
+	loop: false,
+	live: false,
+	behavior: 'all'
+  }
+}).render().setUser('Coworkscape').start();
+</script>
+
+		  </div><!--/.well -->
+		</div><!--/span-->
+		
+		<div class="span6 columns">
+		<div class="well sidebar-nav">
+		<div class="fb-like-box" data-href="https://www.facebook.com/coworkscape" data-width="420" data-height="407" data-show-faces="true" data-border-color="#CCCCCC" data-stream="false" data-header="false"></div>
+		</div><!--/.well -->
+		</div><!--/span-->
+		
+	</div><!--/row-->
+
+  <div class="row">
+		<div class="span12 columns">
+		<div class="onceBannerArea sidebar-nav">
+		
+			<div class="visible-desktop"><a href="http://afod.net" target="_blank"><img class="width100per" src="/assets/common_afod_wide_large.jpg" alt="afod（アフォッド）〜くらしのためのアート。"></a></div>
+			<div class="visible-tablet"><a href="http://afod.net" target="_blank"><img class="width100per" src="/assets/common_afod_wide.jpg" alt="afod（アフォッド）〜くらしのためのアート。"></a></div>
+			<div class="visible-phone"><a href="http://afod.net" target="_blank"><img class="width100per" src="/assets/common_afod_normal.jpg" alt="afod（アフォッド）〜くらしのためのアート。"></a></div>
+
+		</div><!--/.onceBannerArea -->
+		</div><!--/span-->
+		
+	</div><!--/row-->
+<% end %>		
+	  <hr>
+
+	  <footer class="footer">
+	  	<ul class="pull-right">
+	  		<a href="/about/"><li><i class="icon-info-sign"></i>このサイトについて</li></a> 
+	  		<a href="https://www.non-standardworld.co.jp/#contact" target="_blank" class="outSite"><li><i class="icon-question-sign"></i>お問い合わせ</li></a>
+	  		<a href="/privacy"><li><i class="icon-bookmark"></i>プライバシーポリシー</li></a> 
+			<a href="/terms"><li><i class="icon-list-alt"></i>利用規約</li></a> 
+		</ul>
+		<div><a href ="https://www.non-standardworld.co.jp" target="_blank"><img src="/assets/common_footer_copyright.png" alt="non-standard world, Inc." width="210" height="14" /></a></div>
+	  </footer>
+
+</div>
+	<!--/.fluid-container-->
+	<!-- Javascripts
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+    <%= javascript_include_tag "application" %>
+	
+  <script type="text/javascript">
+	$(function() {
+	
+	$("#button").click(function() {
+		$("#button").fadeOut("first", function(){
+		$("#cricle").fadeIn("first")
+		});
+		});
+	});
+      $('#nearby').click(function(){getCurrentLocation()})
+        $("#detail").click(function(){
+	        $("#search-option").toggle('first');
+	    })
+      function getCurrentLocation() {
+
+        // Try HTML5 geolocation
+        if(navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(function(position) {
+			location.href = "/spaces/search/?lat="+ position.coords.latitude + "&long=" + position.coords.longitude
+          }, function() {
+            handleNoGeolocation(true);
+          });
+        } else {
+          // Browser doesn't support Geolocation
+          handleNoGeolocation(false);
+        }
+      }
+
+      function handleNoGeolocation(errorFlag) {
+        if (errorFlag) {
+          var content = '残念ですが、現在地が取得できませんでした。';
+        } else {
+          var content = 'お使いのブラウザーは現在地の取得に対応していないようです。';
+        }        
+      }
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31198866-1']);
+  _gaq.push(['_setDomainName', 'cowork.so']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<% content_for :title do -%>
+コワーキングスペース情報の登録 || Coworkscape - 登録自由のコワーキングスペース情報サイト -
+<% end -%>
+<section id="<%= controller.controller_name %>-<%= controller.action_name %>">
+<div class="page-header">
+    <h2>コワーキングスペース情報の登録</h2>
+</div>
+
+<% if @user %>
+<%= render 'form' %>
+<% else %>
+完全に無料であなたのコワーキングスペースの情報を登録することができます！<br>
+<%= link_to('こちら', new_user_registration_path) %>より登録のうえご利用ください。<br>
+既に登録済みの方は<%= link_to('こちら', new_user_session_path) %>よりログインしてください。
+<% end %>

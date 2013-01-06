@@ -1,0 +1,20 @@
+<div class="page-header">
+<h2>パスワード忘れ</h2>
+</div>
+<p>登録したメールアドレスを入力して、送信ボタンを押して下さい。パスワード変更のためのURLが記載されたメールをお送りします。</p>
+<%= form_for(resource, :as => resource_name, :url => password_path(resource_name), :html => { :method => :post, :class => "form-horizontal" }) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div class="control-group">
+  <%= f.label :email, :class => "control-label" %>
+  <div class="controls">
+  <%= f.email_field :email, :class=>"input-file" %>
+  </div>
+  </div>
+
+  <div class="form-actions">
+  <%= f.submit "送信", :class=>"btn btn-primary" %>
+  </div>
+<% end %>
+
+<%= render "links" %>

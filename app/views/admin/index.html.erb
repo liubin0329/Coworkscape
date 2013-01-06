@@ -1,0 +1,31 @@
+<div class="page-header">
+    <h2>登録者一覧</h2>
+</div>
+
+<table class="table">
+  <tr>
+    <th>ID</th>
+    <th>名前</th>
+    <th>メール</th>
+    <th>登録日</th>
+    <th>アクティベーション</th>
+    <th>管理スペース</th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+  	<td><%= user.id %></td>
+  	<td><%= user.name %></td>
+    <td><%= user.email %></td>
+    <td><%= user.created_at.to_date %></td>
+    <td><%= user.confirmed_at %></td>
+    <td><% unless user.spaces.blank? %>
+    <ul>
+    <% user.spaces.each do |space|%>
+    <li><%= link_to space.name, space_path(space) %></li>
+    <% end %>
+    </ul>
+    <% end %></td>
+  </tr>
+<% end %>
+</table>

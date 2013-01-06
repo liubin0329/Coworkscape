@@ -1,0 +1,248 @@
+<p>*印がついたものは必須入力項目です。</p>
+<%= form_for(@space, :html => { :multipart => true, :class => "form-horizontal" }) do |f| %>
+
+  <% if @space.errors.any? %>
+    <div id="error_explanation" class="alert alert-block">
+      <h2>以下のエラーをご確認ください。</h2>
+
+      <ul>
+      <% @space.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  
+  <div class="control-group">
+    <%= f.label :name, "名称*", :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_field :name, :class=> "input-xlarge", :placeholder=>"non-standard world cafe" %>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :description, "説明*", :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_area :description, :class=> "span6 input-xlarge", :placeholder=>"施設の説明（400字以内）" %>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :website, :class => "control-label" %>
+    <div class="controls">
+    <%= f.url_field :website, :class=> "input-xlarge", :placeholder=>"http://www.non-standardworld.co.jp/" %>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :twitter, :class => "control-label" %>
+    	<div class="controls">
+    		<div class="input-prepend">
+    		<span class="add-on">@</span><%= f.text_field :twitter, :class=> "input-xlarge", :placeholder=>"nswontwit" %>
+    		</div>
+    	</div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :facebook, :class => "control-label" %>
+    <div class="controls">
+    	<div class="input-prepend">
+    	<span class="add-on">https://www.facebook.com/</span><%= f.text_field :facebook, :class=> "input-xlarge", :placeholder=>"nonstandardworld" %>
+    	</div>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :zip, "郵便番号*", :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_field :zip, :class=> "input-xlarge", :placeholder=>"160-0022" %>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :pref, "都道府県*", :class => "control-label" %>
+    <div class="controls">
+    <%= f.select :pref, Space::CITY_TYPES, :prompt => "選択してください", :selected => @space.pref, :class => "span2" %>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :address1, "市区町村*", :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_field :address1, :class=> "input-xlarge", :placeholder=>"新宿区" %>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :address2, "番地*", :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_field :address2, :class=> "input-xlarge", :placeholder=>"新宿5-10-1" %>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :address3, :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_field :address3, :class=> "input-xlarge", :placeholder=>"第2スカイビル401" %>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :phone, "問合せ電話番号", :class => "control-label" %>
+    <div class="controls">
+    <%= f.phone_field :phone, :class=> "input-xlarge", :placeholder=>"00-0000-0000" %>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <%= f.label :email, "問合せメールアドレス", :class => "control-label" %>
+    <div class="controls">
+    <%= f.email_field :email, :class=> "input-xlarge", :placeholder=>"hello@non-standardworld.co.jp" %>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :organization, :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_field :organization, :class=> "input-xlarge", :placeholder=>"non-standard world株式会社" %>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :availability, :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_area :availability, :class=> "span6 input-xlarge", :rows => 3, :placeholder=>"営業時間：平日9時〜23時　定休日：毎週水曜日" %>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <%= f.label :photo, "メイン写真*", :class => "control-label" %>
+    <div class="controls">
+    <%= f.file_field :photo, :class=>"input-file" %>
+    <p class="help-block">写真の推奨サイズ：<strong>幅</strong> 700px以上・<strong>縦横比</strong> ヨコ3：タテ2</p>
+    </div>
+  </div>
+  
+    <div class="control-group">
+    <%= f.label :photo1, :class => "control-label" %>
+    <div class="controls">
+    <%= f.file_field :photo1, :class=>"input-file" %>
+    </div>
+  </div>
+    <div class="control-group">
+    <%= f.label :photo2, :class => "control-label" %>
+    <div class="controls">
+    <%= f.file_field :photo2, :class=>"input-file" %>
+    </div>
+  </div>
+    <div class="control-group">
+    <%= f.label :photo3, :class => "control-label" %>
+    <div class="controls">
+    <%= f.file_field :photo3, :class=>"input-file" %>
+    </div>
+  </div>
+
+    <div class="control-group">
+            <label class="control-label" for="inlineCheckboxes">サービス</label>
+            <div class="controls">
+              <label class="checkbox inline">
+              	<%= f.check_box :oneday, :id=>"inlineCheckbox1" %> 1日利用可
+              </label>
+              <label class="checkbox inline">
+              	<%= f.check_box :twentyfour, :id=>"inlineCheckbox2" %> 24時間営業
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :weekends, :id=>"inlineCheckbox3" %> 週末可
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :receipt, :id=>"inlineCheckbox4" %> 受付
+              </label>    
+               <label class="checkbox inline">
+                <%= f.check_box :reg, :id=>"inlineCheckbox5" %> 登記可
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :post, :id=>"inlineCheckbox6" %> 郵便受取サービス
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :phone_machine, :id=>"inlineCheckbox9" %> 固定電話番号取得サービス
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :drinks, :id=>"inlineCheckbox7" %> 飲み物
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :pet, :id=>"inlineCheckbox8" %> ペット可
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :visa, :id=>"inlineCheckbox8" %> コワーキングビザjp使用可
+              </label>
+          	</div>
+   </div>
+  <div class="control-group">
+            <label class="control-label" for="inlineCheckboxes">設備</label>
+            <div class="controls">
+              <label class="checkbox inline">
+                <%= f.check_box :wifi, :id=>"inlineCheckbox1" %> Wifi
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :printer, :id=>"inlineCheckbox2" %> プリンタ
+              </label> 
+              <label class="checkbox inline">
+                <%= f.check_box :copy, :id=>"inlineCheckbox3" %> コピー機
+              </label> 
+              <label class="checkbox inline">
+                <%= f.check_box :scanner, :id=>"inlineCheckbox4" %> スキャナ
+              </label>    
+              <label class="checkbox inline">
+                <%= f.check_box :conference, :id=>"inlineCheckbox5" %> 会議室
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :projector, :id=>"inlineCheckbox6" %> プロジェクター
+              </label> 
+              <label class="checkbox inline">
+                <%= f.check_box :whiteboard, :id=>"inlineCheckbox7" %>  ホワイトボード
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :locker, :id=>"inlineCheckbox8" %> 鍵付きロッカー
+              </label>               
+              <label class="checkbox inline">
+                <%= f.check_box :fax, :id=>"inlineCheckbox9" %> FAX
+              </label>       
+              <label class="checkbox inline">
+                <%= f.check_box :shredder, :id=>"inlineCheckbox10" %> シュレッダー
+              </label>
+              <label class="checkbox inline">
+                <%= f.check_box :charger, :id=>"inlineCheckbox11" %>  電源
+              </label>
+
+          	</div>
+   </div>
+  <h3>料金プラン</h3> 
+  <table class="table">
+  <thead>
+  <tr>
+  <th>プラン名</th>
+  <th>料金</th>
+  </tr>
+  </thead>
+  <tbody>
+  <%= f.fields_for :plans do |builder| %>
+  <tr>
+    <td><%= builder.text_field :title, :class=> "input-xlarge", :placeholder=>"オープンスペース会員" %></td>
+    <td><%= builder.text_field :price, :class=> "input-xlarge span3", :placeholder=>"15000" %> 円／ <%= builder.select :per, Plan::PER_TYPES, {:prompt => "選択ください"}, {:class => "span2"} %><%= builder.hidden_field :user_id, :value => @user.id %></td>
+  </tr>
+  <% end %>
+  </tbody>
+  </table>
+  
+  <%= f.hidden_field :user_id, :value => @user.id %>
+  <div class="control-group">
+    <%= f.label :price_notice, "料金に関する注意事項", :class => "control-label" %>
+    <div class="controls">
+    <%= f.text_area :price_notice, :class=> "span6 input-xlarge", :placeholder=>"料金に関する注意事項（400字以内）" %>
+    </div>
+  </div>
+  <div class="form-actions">
+    <div id="cricle" style="display:none"><img src = '/assets/loading.gif' width=25 height=25></div><%= f.submit '公開', :class=>"btn btn-primary", :id=>"button" %>
+  </div>
+  
+<% end %>
