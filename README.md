@@ -51,6 +51,6 @@ Rails 3.2.X/Heroku/Amazon S3(データストレージ)で動作していまし�
 
 認証にはFacebookを利用しています。そのため、FacebookのアプリケーションIDが必要になります。
 
-     config.omniauth :facebook, "FacebookのアプリケーションID", "シークレット", {:scope => 'email, offline_access', :client_options => {:ssl => {:ca_file => '/usr/lib/ssl/certs/ca-certificates.crt'}}}
+     config.omniauth :facebook, "FacebookのアプリケーションID", "シークレットトークン", {:scope => 'email, offline_access', :client_options => {:ssl => {:ca_file => '/usr/lib/ssl/certs/ca-certificates.crt'}}}
 
 以上で動作すると思います。
